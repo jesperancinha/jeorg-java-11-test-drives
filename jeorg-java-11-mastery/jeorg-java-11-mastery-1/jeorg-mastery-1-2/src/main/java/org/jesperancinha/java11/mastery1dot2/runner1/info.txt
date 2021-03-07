@@ -1,0 +1,2 @@
+3. Valid module names
+although numbers are not advised you can use them in the middle or as a suffix to a sub-package name.

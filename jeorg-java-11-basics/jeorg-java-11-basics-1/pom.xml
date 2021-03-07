@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jeorg-java-11-basics</artifactId>
+        <groupId>org.jesperancinha.jtd</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>jeorg-java-11-basics-1</artifactId>
+
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>jeorg-concurrency-callable</module>
+        <module>jeorg-jooa-roast</module>
+        <module>jeorg-cpf-bills</module>
+        <module>jeorg-jooa-zambujeira</module>
+        <module>jeorg-wwjdt-safari</module>
+        <module>jeorg-wwac-navigation</module>
+        <module>jeorg-wwjdt-for-labels</module>
+        <module>jeorg-eh0-catching-crows</module>
+        <module>jeorg-wwjdt-chartat</module>
+        <module>jeorg-cpf-rem</module>
+        <module>jeorg-wwjdt-conversions</module>
+        <module>jeorg-jooa-royals</module>
+        <module>jeorg-wwjdt-operators</module>
+        <module>jeorg-cpf-switches</module>
+        <module>jeorg-jooa-wanda-classes</module>
+        <module>jeorg-wwac-vector-cher</module>
+        <module>jeorg-wwjdt-operators-2</module>
+        <module>jeorg-concurrency-the-fugitive</module>
+    </modules>
+
+</project>
