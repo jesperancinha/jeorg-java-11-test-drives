@@ -40,7 +40,7 @@ In this project you will find all my study materials for my Java SE 11 learning 
 - [Mastery](./jeorg-java-11-mastery) - Extremely theoretical modules with a context
 - [Crums](./jeorg-java-11-crums) - Lightning/Fast track practice exercises without a context
 - [Flash Modules](./jeorg-java-11-flash-modules) - Lightning/Fast track practice module exercises without a context
-- [Test Drives](./jeorg-java-11-test-drives) - Experimental applications built with Java 11
+- [Old Test Drives](./jeorg-java-11-old) - Old Experimental applications built with Java 11
 
 ## Build
 
