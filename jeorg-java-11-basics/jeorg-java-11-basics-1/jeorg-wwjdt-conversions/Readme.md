@@ -14,7 +14,7 @@ Will have a look at a small conversion between primitives and constant values. N
 - Jecan, A. (2017). <i>Java 9 Modularity Revealed</i>. (First Edition). Apress
 - Mak, S. Bakker, P. (September 2017)<i> Java 9 Modularity - Patterns And Practices for Developing Maintainable Applications </i>. (First Edition). O'Reilly
 
-## About me 👨🏽‍💻🚀
+## About me 👨🏽‍💻🚀🏳️‍🌈
 
 [![alt text](https://raw.githubusercontent.com/jesperancinha/project-signer/master/project-signer-templates/icons-20/JEOrgLogo-20.png "João Esperancinha Homepage")](http://joaofilipesabinoesperancinha.nl)
 [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse)
