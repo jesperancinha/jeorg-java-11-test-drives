@@ -61,7 +61,7 @@ sdk use java 11.0.9.hs-adpt
 ```bash
 mvn clean test -Dconsolerizer.show=false
 bash <(curl -s https://codecov.io/bash)
-``
+```
 
 ---
 
