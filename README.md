@@ -11,6 +11,7 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/jeorg-java-11-test-drives?branch=master)](https://bettercodehub.com/)
 [![Build status](https://ci.appveyor.com/api/projects/status/eka55ffpbjkxq55p?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-java-11-test-drives)
 [![Known Vulnerabilities](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives/badge.svg)](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives)
+[![codecov](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives/branch/main/graph/badge.svg?token=bcb3JhwMRp)](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives)
 
 [![GitHub language count](https://img.shields.io/github/languages/count/jesperancinha/jeorg-java-11-test-drives.svg)](#)
 [![GitHub top language](https://img.shields.io/github/languages/top/jesperancinha/jeorg-java-11-test-drives.svg)](#)
@@ -54,6 +55,13 @@ Note that if you want to build this project from the root, you need to use one o
 sdk install java 11.0.9.hs-adpt
 sdk use java 11.0.9.hs-adpt
 ```
+
+## Run Codecov
+
+```bash
+mvn clean test -Dconsolerizer.show=false
+bash <(curl -s https://codecov.io/bash)
+``
 
 ---
 

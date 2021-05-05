@@ -19,7 +19,7 @@
     <name>Java Test Drives</name>
     <properties>
         <!-- External -->
-        <consolerizer.version>2.0.2</consolerizer.version>
+        <consolerizer.version>2.0.10</consolerizer.version>
         <lombok.version>1.18.10</lombok.version>
         <mockito.all>1.9.5</mockito.all>
 
