@@ -12,7 +12,7 @@ We will use the data from a fairly unknown group from the 80's called [Living in
 - Boyarsky, J. Selikoff, S. (2019). <i>OCP Oracle Certified Professional Java SE 11 Programmer I Study Guide</i>. (Second Edition). Sybex
 - Parlog, N. (23rd July 2019). <i>The Java Module System</i>. (First Edition). Manning Publications
 - Jecan, A. (2017). <i>Java 9 Modularity Revealed</i>. (First Edition). Apress
-- Mak, S. Bakker, P. (September 2017)<i> Java 9 Modularity - Patterns And Practices for Developing Maintainable Applications </i>. (First Edition). O'Reilly 
+- Mak, S. Bakker, P. (September 2017)<i> Java 9 Modularity - Patterns And Practices for Developing Maintainable Applications </i>. (First Edition). O'Reilly
 
 ## Output
 

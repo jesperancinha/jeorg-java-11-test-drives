@@ -39,12 +39,12 @@ import java.util.Properties;
 import java.util.Scanner;
 import java.util.stream.Collectors;
 
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BRIGHT_CYAN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.GREEN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.MAGENTA;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.RED;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 import static org.jesperancinha.console.consolerizer.console.ConsolerizerGraphs.printUnicornsLn;
 
 public class Mastery4Dot1Runner {

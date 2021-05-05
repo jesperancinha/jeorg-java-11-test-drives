@@ -51,7 +51,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BRIGHT_CYAN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BRIGHT_MAGENTA;
@@ -60,6 +59,7 @@ import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.MA
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.ORANGE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.RED;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.YELLOW;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 import static org.jesperancinha.console.consolerizer.console.ConsolerizerGraphs.printUnicornsLn;
 import static org.jesperancinha.java11.mastery4dot2.concert.Ticket.getTicketsLongNumbers;
 import static org.jesperancinha.java11.mastery4dot2.concert.Ticket.getTicketsStringNumbers;

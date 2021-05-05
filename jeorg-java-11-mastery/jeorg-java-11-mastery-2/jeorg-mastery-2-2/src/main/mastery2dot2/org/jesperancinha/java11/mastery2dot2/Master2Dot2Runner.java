@@ -28,14 +28,14 @@ import java.util.stream.Stream;
 
 import static java.util.Arrays.compare;
 import static java.util.Arrays.mismatch;
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowTitleLn;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BRIGHT_CYAN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.GREEN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.ORANGE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.RED;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.YELLOW;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowTitleLn;
 import static org.jesperancinha.console.consolerizer.console.ConsolerizerGraphs.printUnicornsLn;
 
 public class Master2Dot2Runner {

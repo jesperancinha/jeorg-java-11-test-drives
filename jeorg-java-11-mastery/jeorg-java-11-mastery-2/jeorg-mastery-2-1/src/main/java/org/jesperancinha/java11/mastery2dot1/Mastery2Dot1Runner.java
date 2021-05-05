@@ -40,12 +40,12 @@ import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BRIGHT_CYAN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.GREEN;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.RED;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.YELLOW;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printRainbowLn;
 
 public class Mastery2Dot1Runner {
     public static void main(String[] args) throws Exception {

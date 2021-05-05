@@ -5,7 +5,6 @@ import org.jesperancinha.console.consolerizer.console.ConsolerizerComposer;
 import java.sql.DriverManager;
 
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
-import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.MAGENTA;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.RED;
 
 public class Crum20 {
@@ -22,7 +21,7 @@ public class Crum20 {
                     .toConsoleLn();
             ConsolerizerComposer.out(" ")
                     .magenta("Auto-Commit setting:")
-                    .orange(""+conn.getAutoCommit())
+                    .orange("" + conn.getAutoCommit())
                     .toConsoleLn();
             conn.close();
         } catch (Exception e) {

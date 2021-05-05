@@ -22,6 +22,7 @@
         <consolerizer.version>2.0.10</consolerizer.version>
         <lombok.version>1.18.10</lombok.version>
         <mockito.all>1.9.5</mockito.all>
+        <jacoco-maven-plugin.version>0.8.6</jacoco-maven-plugin.version>
 
         <!-- Internal -->
         <java-test-drives-commons>1.0.0-SNAPSHOT</java-test-drives-commons>
@@ -36,6 +37,32 @@
         <maven-compiler-plugin.source>11</maven-compiler-plugin.source>
         <maven-compiler-plugin.target>11</maven-compiler-plugin.target>
     </properties>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.jacoco</groupId>
+                    <artifactId>jacoco-maven-plugin</artifactId>
+                    <version>${jacoco-maven-plugin.version}</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>prepare-agent</goal>
+                            </goals>
+                        </execution>
+                        <execution>
+                            <id>report</id>
+                            <phase>test</phase>
+                            <goals>
+                                <goal>report</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
     <dependencyManagement>
         <dependencies>

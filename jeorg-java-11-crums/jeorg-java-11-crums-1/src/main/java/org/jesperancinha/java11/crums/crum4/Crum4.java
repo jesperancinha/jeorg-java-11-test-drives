@@ -1,8 +1,8 @@
 package org.jesperancinha.java11.crums.crum4;
 
-import static org.jesperancinha.console.consolerizer.console.Consolerizer.printNewLine;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.BLUE;
 import static org.jesperancinha.console.consolerizer.common.ConsolerizerColor.MAGENTA;
+import static org.jesperancinha.console.consolerizer.console.Consolerizer.printNewLine;
 
 public class Crum4 {
     public static void main(String[] args) {
