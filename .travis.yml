@@ -1,7 +1,7 @@
 os:
   - linux
   - osx
-stage: ITF - Chartizate common module
+stage: JEOrg Java SE 11 Test Drives
 language: java
 jdk: openjdk15
 script:
