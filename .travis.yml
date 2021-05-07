@@ -1,6 +1,9 @@
-os: linux
+os:
+  - linux
+  - osx
+stage: ITF - Chartizate common module
 language: java
 jdk: openjdk15
 script:
-  - mvn clean install -Dconsolerizer.show=false
+  - mvn clean install coveralls:report -Dconsolerizer.show=false -DrepoToken=${COVERALLS_TOKEN}
   - bash <(curl -s https://codecov.io/bash)
