@@ -4,7 +4,7 @@
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Java%2011%20Test%20Drives&color=informational)](https://github.com/jesperancinha/jeorg-java-11-test-drives)
 [![GitHub release](https://img.shields.io/github/release-pre/jesperancinha/jeorg-java-11-test-drives.svg)](#)
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/89cc4b270cda4a448ce4fa895b30ec55)](https://www.codacy.com/manual/jofisaes/jeorg-java-11-test-drives?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/70235530-f5e9-4254-a0d1-9dc7950c12cc)](https://codebeat.co/projects/github-com-jesperancinha-jeorg-java-11-test-drives-master)
 [![CircleCI](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives.svg?style=svg)](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives)
 [![Build Status](https://travis-ci.org/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.org/jesperancinha/jeorg-java-11-test-drives)
