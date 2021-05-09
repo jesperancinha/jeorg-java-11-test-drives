@@ -1,7 +1,6 @@
 # mastery-3-1 - Mastery Module 3.1.
 
-In this fifth master module on route to the Java 11 certification, we are going to use data from some of the most amazing singers who sing in dutch. Regardless of my musical preferences and of yours, it is undeniable that it is through their music that I ended up learning this amazing language. I
-sang these songs from my heart and little by little my dutch speaking goal became a reality. It should be no surprise that my story would end up being a part of my study materials of some sort and this is their debut.
+In this fifth master module on route to the Java 11 certification, we are going to use data from some of the most amazing singers who sing in dutch. Regardless of my musical preferences and of yours, it is undeniable that it is through their music that I ended up learning this amazing language. I sang these songs from my heart and little by little my dutch speaking goal became a reality. It should be no surprise that my story would end up being a part of my study materials of some sort and this is their debut.
 
 ## Preparation
 

@@ -2,10 +2,11 @@
 
 ## Exercise
 
-We are going to look at some of the Hot albums of 2020 and make maps with them. Our map will allow us to check immediately to which artist does the album belongs to. We are going to understand what
-the [NavigableMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/NavigableMap.html), [SortedMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/SortedMap.html) and [Map](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Map.html)
-interfaces have to provide. Two classes implement these interfaces: [ConcurrentSkipListMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/ConcurrentSkipListMap.html) and [TreeMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/TreeMap.html)
-. We will be looking at the TreeMap.
+We are going to look at some of the Hot albums of 2020 and make maps with them.   
+Our map will allow us to check immediately to which artist does the album belongs to.   
+We are going to understand what the [NavigableMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/NavigableMap.html), [SortedMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/SortedMap.html) and [Map](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Map.html) interfaces have to provide.  
+Two classes implement these interfaces: [ConcurrentSkipListMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/concurrent/ConcurrentSkipListMap.html) and [TreeMap](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/TreeMap.html).   
+We will be looking at the TreeMap.
 
 ## Output
 

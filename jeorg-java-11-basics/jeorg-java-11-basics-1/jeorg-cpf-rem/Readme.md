@@ -2,8 +2,7 @@
 
 ## Exercise
 
-We have another look into the switch case possibilities. We know that int, short, byte, char, enum and String are allowed. We also know that wrapper or boxing classes are also allowed. We know that long, float double are not allowed. Let's explore this world and learn the amazing biography of the
-band [R.E.M.](https://en.wikipedia.org/wiki/R.E.M.).
+We have another look into the switch case possibilities. We know that int, short, byte, char, enum and String are allowed. We also know that wrapper or boxing classes are also allowed. We know that long, float double are not allowed. Let's explore this world and learn the amazing biography of the band [R.E.M.](https://en.wikipedia.org/wiki/R.E.M.).
 
 ## References
 

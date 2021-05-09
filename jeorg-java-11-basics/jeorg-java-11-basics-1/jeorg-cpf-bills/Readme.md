@@ -2,8 +2,7 @@
 
 ## Exercise
 
-Let's just check this assignment options. There are a lot, but the complicated ones are fairly forgotten most of the time. Let's revive this using data from [Destiny's Child](https://en.wikipedia.org/wiki/Destiny%27s_Child) video
-for [Bills, Bills Bills](https://en.wikipedia.org/wiki/Bills,_Bills,_Bills).
+Let's just check this assignment options. There are a lot, but the complicated ones are fairly forgotten most of the time. Let's revive this using data from [Destiny's Child](https://en.wikipedia.org/wiki/Destiny%27s_Child) video for [Bills, Bills Bills](https://en.wikipedia.org/wiki/Bills,_Bills,_Bills).
 
 ## Output
 

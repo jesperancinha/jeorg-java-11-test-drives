@@ -15,8 +15,7 @@ javac -encoding utf-8 --module-path plane/target:out --module-source-path hangar
 
 ## Take-away
 
-It is important to notice that automatic modules, the ones that come from unamed modules, export all packages. However, these packages are only visibile to the modularized packages accessible via requires. In our example, we would have no been able to access a `plane` if it was not placed in
-the `hangar`.
+It is important to notice that automatic modules, the ones that come from unamed modules, export all packages. However, these packages are only visibile to the modularized packages accessible via requires. In our example, we would have no been able to access a `plane` if it was not placed in the `hangar`.
 
 ## Output
 

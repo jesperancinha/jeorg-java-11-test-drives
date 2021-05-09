@@ -1,7 +1,6 @@
 # mastery-4-2 - Mastery Module 4.2.
 
-Welcome to my 8th mastery module. For this module we will master our Java knowledge with Java exercises based on the data of Spanish Pop Music. In this case we will have a look at some of the music that really had an influence on my life during my Spanish years. This is all about the spanish
-pop/indie music history between the 70's going through the 80's, 90's and early 2000's.
+Welcome to my 8th mastery module. For this module we will master our Java knowledge with Java exercises based on the data of Spanish Pop Music. In this case we will have a look at some of the music that really had an influence on my life during my Spanish years. This is all about the spanish pop/indie music history between the 70's going through the 80's, 90's and early 2000's.
 
 ## Exercise
 

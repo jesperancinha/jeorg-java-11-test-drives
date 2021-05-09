@@ -2,8 +2,12 @@
 
 ## Exercise
 
-We will explore these operators <<, >> and >>>. These are the left shift, right shift and right shift unsigned operator. To understand this, the unsigned right shift operator, shifts the binary sequence regardless. The others move one position while keeping the sign. This means that the 1's sequence
-before the actual number is maintained to keep the actual negative sign. These are after all smooth operators...
+We will explore these operators <<, >> and >>>.   
+These are the left shift, right shift and right shift unsigned operator.   
+To understand this, the unsigned right shift operator, shifts the binary sequence regardless.   
+The others move one position while keeping the sign.   
+This means that the 1's sequence before the actual number is maintained to keep the actual negative sign.   
+These are after all smooth operators...
 
 ## References
 

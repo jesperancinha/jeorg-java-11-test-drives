@@ -2,8 +2,8 @@
 
 ## Exercise
 
-Carmen Sandiego was a show from the early 90's, which had a recend re-run in 2019. We are going to explore the world of i18n (short for internationalization) using data from the episodes. More concretely we will look at
-the [NumberFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/NumberFormat.html) and [DateFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/DateFormat.html) class types.
+Carmen Sandiego was a show from the early 90's, which had a recend re-run in 2019.   
+We are going to explore the world of i18n (short for internationalization) using data from the episodes. More concretely we will look at the [NumberFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/NumberFormat.html) and [DateFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/DateFormat.html) class types.
 
 ## Output
 

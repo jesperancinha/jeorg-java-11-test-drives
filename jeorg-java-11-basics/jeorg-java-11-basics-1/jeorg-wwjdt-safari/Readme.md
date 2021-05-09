@@ -10,10 +10,21 @@ Let's make a safari through South Africa. We will calculate distances in detail 
 -   From Maputo to Flag Boshielo Dam  (ZAF) -> 462.44 km
 -   From Flag Boshielo Dam to Helderberg (ZAF) -> 1612.35 km
 
-Palesa lives in Cape Town. Palesa will visit her sister Nyarai in the winery of Helderberg. There Palesa will chat for a while before going on an amazing adventure. After 15 excruciating long walking days, Palesa reaches Pretoria. She finds a job working in a bar, and there, she makes enough money
-to continue her journey. Palesa is now heading to Botswana and will visit Gaborone. After visiting a few places with amazing views, Palesa decides to move on to Maputo. Palesa wants to learn Portuguese in Maputo and so she does. After a few days and finally mastering the portuguese language, Palesa
-decides to take a swim. So, she decides to visit the Flag Boshielo Dam. There unbenounced to the crocodile presence, Palesa takes a dip. In the distancem, she sees a very large and mellow crocodile approaching, and so Palesa leaves terrified. It's been 30 consecutive days of walking, and Palesa is
-now tired. Finally Palesa goes back to Cape Town. First, she takes another glass of whine, with her sister Nyarai, and finally Palesa returns home to her beloved Raithby district. The Helderberg mountain in the distance gives her a very heart warming feeling during the sunset.
+Palesa lives in Cape Town.   
+Palesa will visit her sister Nyarai in the winery of Helderberg.   
+There Palesa will chat for a while before going on an amazing adventure.   
+After 15 excruciating long walking days, Palesa reaches Pretoria.   
+She finds a job working in a bar, and there, she makes enough money to continue her journey.   
+Palesa is now heading to Botswana and will visit Gaborone.   
+After visiting a few places with amazing views, Palesa decides to move on to Maputo.   
+Palesa wants to learn Portuguese in Maputo and so she does.  
+After a few days and finally mastering the portuguese language, Palesa decides to take a swim.   
+So, she decides to visit the Flag Boshielo Dam.   
+There unbenounced to the crocodile presence, Palesa takes a dip. In the distancem, she sees a very large and mellow crocodile approaching, and so Palesa leaves terrified.   
+It's been 30 consecutive days of walking, and Palesa is now tired.   
+Finally Palesa goes back to Cape Town.   
+First, she takes another glass of whine, with her sister Nyarai, and finally Palesa returns home to her beloved Raithby district.   
+The Helderberg mountain in the distance gives her a very heart warming feeling during the sunset.
 
 ## Output
 

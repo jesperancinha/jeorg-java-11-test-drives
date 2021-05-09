@@ -2,8 +2,7 @@
 
 ## Exercise
 
-In this exercise we will try to catch Crow exceptions and understand how the catch chains work. We will also have a look at how the auto closeable interface(s) work and the order all possible blocks are executed. Our data is inspired by dutch crows (known as kraaien in dutch 🇳🇱), and a
-hypothetical case of walking down the Museum Quarter in Amsterdam. We are scientists walking around in this are close to the [Rijksmuseum](https://www.youtube.com/user/RijksmuseumAmsterdam). We need to catch some crows to understand how they are doing healthwise and study their behaviour.
+In this exercise we will try to catch Crow exceptions and understand how the catch chains work. We will also have a look at how the auto closeable interface(s) work and the order all possible blocks are executed. Our data is inspired by dutch crows (known as kraaien in dutch 🇳🇱), and a hypothetical case of walking down the Museum Quarter in Amsterdam. We are scientists walking around in this are close to the [Rijksmuseum](https://www.youtube.com/user/RijksmuseumAmsterdam). We need to catch some crows to understand how they are doing healthwise and study their behaviour.
 
 ## Output
 

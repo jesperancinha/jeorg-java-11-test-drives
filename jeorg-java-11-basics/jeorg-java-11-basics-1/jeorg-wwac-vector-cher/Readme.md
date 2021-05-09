@@ -3,8 +3,7 @@
 ## Exercise
 
 We have gathered all first 26 Cher albums. This is one of my favourite artists of all time. We pick them up and then we fiercly add them to a Vector. In the same way we add them to an ArrayList. Fiercely here means that we will add 26 x 100 times!!
-We will do thar by spawning different threads for each single addition. We will then measure how long it took. You should see a significant performance improvement in adding to an ArrayList. This is because lists are asynchronous and vectors are synchronous. There are other numerous
-advantages/disadvantages in using one or the other. I advise you stringly to goto this brilliant page written by [Geek4Geeks](https://www.geeksforgeeks.org/): [Difference Between Vector and List](https://www.geeksforgeeks.org/difference-between-vector-and-list/)
+We will do thar by spawning different threads for each single addition. We will then measure how long it took. You should see a significant performance improvement in adding to an ArrayList. This is because lists are asynchronous and vectors are synchronous. There are other numerous advantages/disadvantages in using one or the other. I advise you stringly to goto this brilliant page written by [Geek4Geeks](https://www.geeksforgeeks.org/): [Difference Between Vector and List](https://www.geeksforgeeks.org/difference-between-vector-and-list/)
 However for the purpose of this exercise we are just insterested in investigating the synchronous/asynchronous difference between the two collection types.
 
 ## References

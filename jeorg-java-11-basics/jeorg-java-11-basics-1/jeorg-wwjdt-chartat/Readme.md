@@ -1,7 +1,9 @@
 # wwjdt-chartat
 
-We will look at the critically acclaimed song "[Annie Lennox - No More "I Love You's"](https://www.youtube.com/watch?v=NSkboTTTmpg)". In concrete we will just play with the song title. We are going to discover some tricks regarding charAt which could be applied to any other method. When working with
-primitive types we need to have present a couple of things:
+We will look at the critically acclaimed song "[Annie Lennox - No More "I Love You's"](https://www.youtube.com/watch?v=NSkboTTTmpg)".   
+In concrete we will just play with the song title.   
+We are going to discover some tricks regarding charAt which could be applied to any other method.   
+When working with primitive types we need to have present a couple of things:
 
 1.  Primitive values inside the range do not need cast (e.g. int to float does not need casting)
 2.  Primitive values outside the range imperatively need casting (e.g. float to int needs casting)
@@ -9,9 +11,7 @@ primitive types we need to have present a couple of things:
 
 ## Tips
 
-Remember that it is not a good idea to catch the utmost subclass of Exceptions. Always better to catch the subclass more common to what we are doing. In our case we will be catching StringIndexOutOfBoundsException... Well I did, you may actually catch ArrayIndexOutOfBoundsException. Let me know on
-my twitter handle if you do! [@joaofse](https://twitter.com/joaofse). [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse). We know to a certain degree that the implementations may change but not exactly if
-they are commonb enough. These are case by case issues, so we have just have to know them.
+Remember that it is not a good idea to catch the utmost subclass of Exceptions. Always better to catch the subclass more common to what we are doing. In our case we will be catching StringIndexOutOfBoundsException... Well I did, you may actually catch ArrayIndexOutOfBoundsException. Let me know on my twitter handle if you do! [@joaofse](https://twitter.com/joaofse). [![Twitter Follow](https://img.shields.io/twitter/follow/joaofse?label=João%20Esperancinha&style=social "Twitter")](https://twitter.com/joaofse). We know to a certain degree that the implementations may change but not exactly if they are commonb enough. These are case by case issues, so we have just have to know them.
 
 ## Output
 
