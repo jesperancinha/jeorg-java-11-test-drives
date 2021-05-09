@@ -28,8 +28,8 @@ Process finished with exit code 0
 
 ## References
 
-- [Comedy Central Roast of Rob Lowe](https://www.imdb.com/title/tt6038506)
-- [Jeff Ross](https://en.wikipedia.org/wiki/Jeff_Ross)
+-   [Comedy Central Roast of Rob Lowe](https://www.imdb.com/title/tt6038506)
+-   [Jeff Ross](https://en.wikipedia.org/wiki/Jeff_Ross)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=m1Or4LA3fNo">

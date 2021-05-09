@@ -4,15 +4,15 @@ In this 7th mastery module on route to the Java 11 certification, we are going t
 
 ## Exercise
 
-1. `Exception` `catch` order
-2. What is the output of `String` for it's 3 different kind of values: `null`, "" and "Something"
-3. JLS evaluation order in multiple operands
-4. Last `Exception` to execute before exiting program abruptly
-5. Generics separation between `<T>` and `T`
-6. Java Inheritance of state
-7. Calculating averages with `collector`'s or with Number typed streams
-8. Loading of drivers in JDBC 4.0
-9. DOS attacks in Java
+1.  `Exception` `catch` order
+2.  What is the output of `String` for it's 3 different kind of values: `null`, "" and "Something"
+3.  JLS evaluation order in multiple operands
+4.  Last `Exception` to execute before exiting program abruptly
+5.  Generics separation between `<T>` and `T`
+6.  Java Inheritance of state
+7.  Calculating averages with `collector`'s or with Number typed streams
+8.  Loading of drivers in JDBC 4.0
+9.  DOS attacks in Java
 10. Using non-modularized jars in modularized jars - [mastery-4-1-modularity](../mastery-4-1-modularity)
 11. Using `private` in inner classes
 12. All possible `switch`
@@ -34,7 +34,7 @@ folder at this point.
 ```text
 ==================== Master Module mastery-4-1 ====================
 Note that this mastery need the prepare.sh script to be run first.
---- 1. `Exception` `catch` order
+--- 1.  `Exception` `catch` order
 ============
 Case: We have just made a test about the history of the United States of America.
 You are applying for a United States residency and nationality.
@@ -55,8 +55,8 @@ When did JFK graduated?
 How many copies did `Why England Slept` sold?
 80000
 Take-away
-1. In a try with multiple catches, the order is more specific to more generic
---- 2. What is the output of `String` for it's 3 different kind of values: `null`, "" and "Something"
+1.  In a try with multiple catches, the order is more specific to more generic
+--- 2.  What is the output of `String` for it's 3 different kind of values: `null`, "" and "Something"
 ============
 Case: Three students are making resets: Katie, Chloe and Susan
 Teacher: In what year was JFK assigned to the ONI field office at Headquarters
@@ -66,10 +66,10 @@ Chloe: I don't know, maybe,
 T: You also don't know? How about you Susan?
 Susan: Of course I do! It was in January 1942
 Take-away
-1. An empty string does not generate output
-2. A null string generates `null` as output
-3. A string with a value, generates that value as output
---- 3. JLS evaluation order in multiple operands
+1.  An empty string does not generate output
+2.  A null string generates `null` as output
+3.  A string with a value, generates that value as output
+--- 3.  JLS evaluation order in multiple operands
 ============
 https://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html
 Case: We have the initials LBJ and we want to know how many years was he/she president.
@@ -84,11 +84,11 @@ We though it was JFK, but then it wasn't JFK and instead it was Lyndon B. Johnso
 I guess our calculation is correct. They were 3 years!
 An now it is corrected also in our data structures: 3 years!
 Take-away
-1. Expression evaluation can be seriously complicated
-2. Most counter intuitive rule might be that the left operand is evaluated first.
-3. All operands have to be evaluated
-4. Read https://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html for more details±!
---- 4. Last `Exception` to execute before exiting program abruptly
+1.  Expression evaluation can be seriously complicated
+2.  Most counter intuitive rule might be that the left operand is evaluated first.
+3.  All operands have to be evaluated
+4.  Read https://docs.oracle.com/javase/specs/jls/se7/html/jls-15.html for more details±!
+--- 4.  Last `Exception` to execute before exiting program abruptly
 ============
 Case: It is 1969, June 28th and you went downtown NY to the famous `The Stonewall Inn`
 It was a nice cosy night and now its early morning and all of the sudden the police charges in!
@@ -106,9 +106,9 @@ Notice when this exception occurs: org.jesperancinha.java11.mastery4dot1.riots.R
 	org.jesperancinha.java11.mastery4dot1.Mastery4Dot1Runner.main(Mastery4Dot1Runner.java:64)
 You see this here, but if you did a System.exit(1) in the previous location, you wouldn't see this message
 Take-away
-1. Although finally always occurs in a try catch, the exception doesn't do anything yet although it has been thrown, if no catch is declared
-2. Further process that block the thread from continuing will prevent this exception to affect anything at all.
---- 5. Generics separation between `<T>` and `T`
+1.  Although finally always occurs in a try catch, the exception doesn't do anything yet although it has been thrown, if no catch is declared
+2.  Further process that block the thread from continuing will prevent this exception to affect anything at all.
+--- 5.  Generics separation between `<T>` and `T`
 ============
 Case: Lyndon B. Johnson envisioned `The Great Society plan` in 1963.
 This led through the years to the civil rights act of 1964 and 1965.
@@ -122,10 +122,10 @@ This is why it fail this way. Let's make it good now.
 This is a message from the GSA->The civil liberties act was signed off by LBJ in 1963
 The Great Society term was coined in 1964 which led to the creation of the Civil Rights act of 1964,000000
 Take-away
-1. We can specify a generic type for one specify class before runtime or during runtime with anonymous classes
-2. We can also, regardless of the class generic type, specify the input params of each individual method of an instance object during runtime
-3. We can, in the same way specify the return parameters
---- 6. Java Inheritance of state
+1.  We can specify a generic type for one specify class before runtime or during runtime with anonymous classes
+2.  We can also, regardless of the class generic type, specify the input params of each individual method of an instance object during runtime
+3.  We can, in the same way specify the return parameters
+--- 6.  Java Inheritance of state
 ============
 Case: After JFK's assassination, LBJ inherited the bill of rights which JFK had fought for, for so long.
 This was the time to make a move, and make a move LBJ did!
@@ -136,8 +136,8 @@ Happy birthday passed: Happy Birthday Mr. President
 But wait! This is not an instance member!: Happy Birthday Mr. President
 So no `Happy Birthday Mr. President`for LBJ
 Take-away
-1. Since we cannot have a subclass of multiple classes, only interfaces, then there is no multiple inheritance of state in Java
---- 7. Calculating averages with `collector`'s or with Number typed streams
+1.  Since we cannot have a subclass of multiple classes, only interfaces, then there is no multiple inheritance of state in Java
+--- 7.  Calculating averages with `collector`'s or with Number typed streams
 ============
 Case: We will count the average count of electoral votes per state in the results of the 1968th USA presidential election.
 The sum of electoral votes for Richard Nixon in 1968 was 301 (via IntStream)
@@ -148,9 +148,9 @@ So the electoral vote average for Richard Nixon was 9,406250 (via averagingDoubl
 So the electoral vote average for Richard Nixon was 9,406250 (via averagingInt)
 So the electoral vote average for Richard Nixon was 9,406250 (via averagingLong)
 Take-away
-1. All average calculation using streams result in a double result
-2. There are at least two ways of doing this. One via collectors and the other via the average method of a Number Stream
---- 8. Loading drivers in JDBC 4.0
+1.  All average calculation using streams result in a double result
+2.  There are at least two ways of doing this. One via collectors and the other via the average method of a Number Stream
+--- 8.  Loading drivers in JDBC 4.0
 ============
 Case: We need to record the different missions that took place in the Vietnam War.
 The Vietnam war is a period that lasted between 1887 and 1975.
@@ -162,17 +162,17 @@ Let's put this in our database. We will use an H2 database
 Connection: H2 / UNNAMED
 Current auto-commit setting: true
 We can configure this because our dependency com.h2database:h2:1.4.200 contains:
-1. file java.sql.Driver in /META-INF/services/java.sql.Driver
-2. this file contains: org.h2.Driver
+1.  file java.sql.Driver in /META-INF/services/java.sql.Driver
+2.  this file contains: org.h2.Driver
 This way, the runtime knows which driver to use.
 The result is 1
 The result is Operation Rolling Thunder was the title of a gradual and sustained aerial bombardment campaign conducted by the United States (U.S.) 2nd Air Division (later Seventh Air Force), U.S. Navy, and Republic of Vietnam Air Force (RVNAF) against the Democratic Republic of Vietnam (North Vietnam) from 2 March 1965 until 2 November 1968, during the Vietnam War.
 The result is Wikipedia
 The result is 1965
 Take-away
-1. In JDBC4.0, available in Java 11, we don't need to load the driver.
-2. As file java.sql.Driver exists in /META-INF/services of that library, the driver is automatically loaded.
---- 9. DOS attacks in Java
+1.  In JDBC4.0, available in Java 11, we don't need to load the driver.
+2.  As file java.sql.Driver exists in /META-INF/services of that library, the driver is automatically loaded.
+--- 9.  DOS attacks in Java
 ============
 Case: It's 1967, you work for the Pentagon and you come across some papers about the USA involvement in the Vietnam war.
 You have to keep these papers safe, so you decide to make a copy of these files to your safe.
@@ -183,10 +183,10 @@ We will also process maximum 200 files.
 We will validate evey file and check for pattern /tmp/pentagon to avoid path traversal.
 Check your /tmp/tmp folder for the results!
 Take-away
-1. Guideline 1-1 / DOS-1: Beware of activities that may use disproportionate resources
-2. Guideline 1-2 / DOS-2: Release resources in all cases
-3. Guideline 1-3 / DOS-3: Resource limit checks should not suffer from integer overflow
-4. Guideline 1-4 / DOS-4: Implement Robust Error/Exceptions handling for services
+1.  Guideline 1-1 / DOS-1: Beware of activities that may use disproportionate resources
+2.  Guideline 1-2 / DOS-2: Release resources in all cases
+3.  Guideline 1-3 / DOS-3: Resource limit checks should not suffer from integer overflow
+4.  Guideline 1-4 / DOS-4: Implement Robust Error/Exceptions handling for services
 --- 10. Using non-modularized jars in modularized jars
 ============
 Please check module mastery-4-1-modularity to continue.
@@ -210,10 +210,10 @@ from:https://en.wikipedia.org/wiki/1960s_in_LGBT_rights
 The United States Supreme Court denies certiorari to Frank Kameny's petition to review the legality of his firing by the United States Army's Map Service in 1957, bringing his four-year legal battle to a close
 This means that although the courtCase is private now, it is still registered for the future.
 Take-away
-1. private members can be always access from the outer and inner classes alike
-2. the scope, however, changes when the class is taken out
-3. although the code stays the same, the scope changes
-4. moving classes away from their inner scope can also be used to change scope without changing a single line of code.
+1.  private members can be always access from the outer and inner classes alike
+2.  the scope, however, changes when the class is taken out
+3.  although the code stays the same, the scope changes
+4.  moving classes away from their inner scope can also be used to change scope without changing a single line of code.
 --- 12. All possible `switch`
 ============
 Case: It is the 15th of August 1969 and you just went to have fun with your pals.
@@ -237,11 +237,11 @@ Switch case for artists who start with a C.
 These artists played for C seconds:
 [Country Joe McDonald, Canned Heat, Creedence Clearwater Revival, Country Joe and the Fish, Crosby, Stills, Nash & Young]
 Take-aways
-1. for switch case, the allowed primitive types are int, short, char and byte
-2. for switch case, the allowed boxing types are Integer, Short, Character and Byte
-3. extra objects can be of type String of enum
-4. cases must be declared with constants
-5. default isn't mandatory but there can only be one
+1.  for switch case, the allowed primitive types are int, short, char and byte
+2.  for switch case, the allowed boxing types are Integer, Short, Character and Byte
+3.  extra objects can be of type String of enum
+4.  cases must be declared with constants
+5.  default isn't mandatory but there can only be one
 --- 13. References operation in shadowing static interface members with class members
 ============
 Case: You don't want to miss the time Joan Baez is going to perform
@@ -252,11 +252,11 @@ And the other date is start: 1969-08-15T17:00
 And the other date is end: 1969-08-18T11:10
 Right! This is actually the time Woodstock '69 in Bethel, New York starts and ends!
 Take-away
-1. Members in interfaces are implicitly static
-2. Static members can be shadowed by instance members
-3. We can, however, by upcasting access them anyways
-4. If we don't upcast, in our specific case, the compiler would interpret that an attempt to access instance members
-5. Since instance members are package protected, and we are on a different package, this results in a compilation failure
+1.  Members in interfaces are implicitly static
+2.  Static members can be shadowed by instance members
+3.  We can, however, by upcasting access them anyways
+4.  If we don't upcast, in our specific case, the compiler would interpret that an attempt to access instance members
+5.  Since instance members are package protected, and we are on a different package, this results in a compilation failure
 ---  14. What encapsulation CANNOT do!
 ============
 Case: You were so impressed with day 16th of August 1969 at Woodstock, that you decided to make a radio of it
@@ -266,13 +266,13 @@ We'll get a random artist with the only available method.
 So now we've hidden our list and any possibility of changing it!
 We can still select random artist 😉 Arlo Guthrie
 Take-away
-1. Encapsulation is a simple concept
-2. Encapsulation allows to hice unwanted members and methods from public access
-3. Encapsulation has nothing to do with inheritance!
-4. Encapsulation has nothing to do with abstraction!
-5. Encapsulation has nothing to do with polymorphism!
-6. Encapsulation is just about wrapping functionalities to reduce functionality to what is strictly needed!
-7. Encapsulation can be, and frequently is used in combination with other techniques, but that doesn't change its basic principle.
+1.  Encapsulation is a simple concept
+2.  Encapsulation allows to hice unwanted members and methods from public access
+3.  Encapsulation has nothing to do with inheritance!
+4.  Encapsulation has nothing to do with abstraction!
+5.  Encapsulation has nothing to do with polymorphism!
+6.  Encapsulation is just about wrapping functionalities to reduce functionality to what is strictly needed!
+7.  Encapsulation can be, and frequently is used in combination with other techniques, but that doesn't change its basic principle.
 ---  15. What does `@Deprecated` actually do?
 ============
 Case: You are one of the organizers of Woodstock '69
@@ -286,10 +286,10 @@ This is because @Deprecated activates during compile time
 You should be getting this from your compiler: 'DeprecatedArtist(java.lang.String)' is deprecated 
 'org.jesperancinha.java11.mastery4dot1.concert.DeprecatedArtist' is deprecated
 Take-away
-1. @Deprecated triggers compilers to show warnings
-2. @Deprecated has RUNTIME retention. This just means that the annotation is not removed
-3. @Deprecated is accessible via reflection during runtime.
-4. @Deprecated is applicable all around the code:{CONSTRUCTOR, FIELD, LOCAL_VARIABLE, METHOD, PACKAGE, MODULE, PARAMETER, TYPE}
+1.  @Deprecated triggers compilers to show warnings
+2.  @Deprecated has RUNTIME retention. This just means that the annotation is not removed
+3.  @Deprecated is accessible via reflection during runtime.
+4.  @Deprecated is applicable all around the code:{CONSTRUCTOR, FIELD, LOCAL_VARIABLE, METHOD, PACKAGE, MODULE, PARAMETER, TYPE}
 🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
 Hope you enjoyed this mastery into Java 11 with the united states of america's history flavour to it.
 Please keep coming back as I'll be creating more mastery modules.
@@ -301,24 +301,24 @@ Process finished with exit code 0
 
 ## References
 
-- [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
-- [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
+-   [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
+-   [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
 
-- [Woodstock](https://en.wikipedia.org/wiki/Woodstock)
-- [List of performances and events at Woodstock Festival](https://en.wikipedia.org/wiki/List_of_performances_and_events_at_Woodstock_Festival)
-- [1960s in LGBT rights](https://en.wikipedia.org/wiki/1960s_in_LGBT_rights)
-- [Frank Kameny](https://en.wikipedia.org/wiki/Frank_Kameny)
-- [Pentagon Papers](https://en.wikipedia.org/wiki/Pentagon_Papers)
-- [Operation Rolling Thunder](https://en.wikipedia.org/wiki/Operation_Rolling_Thunder)
-- [1968 United States presidential election](https://en.wikipedia.org/wiki/1968_United_States_presidential_election)
-- [Richard Nixon](https://www.biography.com/us-president/richard-nixon)
-- [Voting Rights Act of 1965](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965)
-- [Civil Rights Act of 1964](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964)
-- [Great Society](https://en.wikipedia.org/wiki/Great_Society)
-- [Stonewall riots](https://en.wikipedia.org/wiki/Stonewall_riots)
-- [Lyndon B. Johnson](https://en.wikipedia.org/wiki/Lyndon_B._Johnson)
-- [John F. Kennedy Biography(1917–1963)](https://www.biography.com/us-president/john-f-kennedy)
-- [The 1960s History by The History Channel](https://www.history.com/topics/1960s/1960s-history)
+-   [Woodstock](https://en.wikipedia.org/wiki/Woodstock)
+-   [List of performances and events at Woodstock Festival](https://en.wikipedia.org/wiki/List_of_performances_and_events_at_Woodstock_Festival)
+-   [1960s in LGBT rights](https://en.wikipedia.org/wiki/1960s_in_LGBT_rights)
+-   [Frank Kameny](https://en.wikipedia.org/wiki/Frank_Kameny)
+-   [Pentagon Papers](https://en.wikipedia.org/wiki/Pentagon_Papers)
+-   [Operation Rolling Thunder](https://en.wikipedia.org/wiki/Operation_Rolling_Thunder)
+-   [1968 United States presidential election](https://en.wikipedia.org/wiki/1968_United_States_presidential_election)
+-   [Richard Nixon](https://www.biography.com/us-president/richard-nixon)
+-   [Voting Rights Act of 1965](https://en.wikipedia.org/wiki/Voting_Rights_Act_of_1965)
+-   [Civil Rights Act of 1964](https://en.wikipedia.org/wiki/Civil_Rights_Act_of_1964)
+-   [Great Society](https://en.wikipedia.org/wiki/Great_Society)
+-   [Stonewall riots](https://en.wikipedia.org/wiki/Stonewall_riots)
+-   [Lyndon B. Johnson](https://en.wikipedia.org/wiki/Lyndon_B._Johnson)
+-   [John F. Kennedy Biography(1917–1963)](https://www.biography.com/us-president/john-f-kennedy)
+-   [The 1960s History by The History Channel](https://www.history.com/topics/1960s/1960s-history)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=pD3Vn44F7as">
@@ -387,18 +387,18 @@ Process finished with exit code 0
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

@@ -5,15 +5,15 @@ pop/indie music history between the 70's going through the 80's, 90's and early 
 
 ## Exercise
 
-1. Primitives Revised
-2. Different ways to use `this`
-3. The body of `switch`
-4. The `java.desktop` module
-5. Hiding and shadowing instance members
-6. Bypassing overloading methods with different return types
-7. Immutability standards and using `LocalDate` and `LocalDateTime`
-8. Overwriting with `FileOutputStream`
-9. Why use `putIfAbsent`?
+1.  Primitives Revised
+2.  Different ways to use `this`
+3.  The body of `switch`
+4.  The `java.desktop` module
+5.  Hiding and shadowing instance members
+6.  Bypassing overloading methods with different return types
+7.  Immutability standards and using `LocalDate` and `LocalDateTime`
+8.  Overwriting with `FileOutputStream`
+9.  Why use `putIfAbsent`?
 10. Evaluation order of conditional operators
 11. Method overloading and overriding with `extends`
 12. Immutability with Guidelines 7 and 6
@@ -41,7 +41,7 @@ folder at this point.
 ----> Run with VM command -ea or -enableassertions for a more accurate run
 ----> Run with -skip to skip questions
 ----> Note that this mastery need the prepare.sh script to be run first.
---- 1. Primitives Revised
+--- 1.  Primitives Revised
 ============
 Case: Music group Fangoria was created in 1989.
 The name of the group was inspired by the love the group members, Alaska and Nacho Canut have for the magazine of the same name
@@ -154,16 +154,16 @@ double maxTest6 = 1.79769313486231572234324324324e+308;
 Double.toString(Double.MAX_VALUE):
 1.7976931348623157E308
 Take-away
-1. Primitive type conversion rules and ranges are not simple
-2. A number without decimal is considered an integer and automatically converted to a lower range if it fits it, but only on instantiation assignment.
-3. A value with a coma is considered a double. An f will specify that it is a float
-4. d is needed when making calculations that result in very large numbers
-5. d is also needed if our number without decimals results to be higher than long
-6. f is also needed if our number without decimals results to be higher than long
-7. f can take in any integer or long
-8. d can take in any integer or long or float
-9. Octals may not have digits higher than 8 otherwise the 0 before the number rule won't work!
---- 2. Different ways to use `this`
+1.  Primitive type conversion rules and ranges are not simple
+2.  A number without decimal is considered an integer and automatically converted to a lower range if it fits it, but only on instantiation assignment.
+3.  A value with a coma is considered a double. An f will specify that it is a float
+4.  d is needed when making calculations that result in very large numbers
+5.  d is also needed if our number without decimals results to be higher than long
+6.  f is also needed if our number without decimals results to be higher than long
+7.  f can take in any integer or long
+8.  d can take in any integer or long or float
+9.  Octals may not have digits higher than 8 otherwise the 0 before the number rule won't work!
+--- 2.  Different ways to use `this`
 ============
 Case: In 1981, Hispavox edited and published single "Juntos" by Paloma San Basilio
 Since then, this song has been sung and remixed by different artists.
@@ -171,11 +171,11 @@ We will register this event and see how can we use `this`.
 The only reason why Company.this.company works is because Company is an enclosing class of Music.
 Hispavox released single Juntos from Paloma San Basilio on the 1981-01-01T00:00
 Take-away
-1. `this` is more commonly used within a class to refer to the instance members
-2. It cannot be used for static members
-3. Although less common, we can use this to refer to the instance members of an enclosing class
-4. Even though it looks like a static accessor, it is an instance member accessor
---- 3. The body of `switch`
+1.  `this` is more commonly used within a class to refer to the instance members
+2.  It cannot be used for static members
+3.  Although less common, we can use this to refer to the instance members of an enclosing class
+4.  Even though it looks like a static accessor, it is an instance member accessor
+--- 3.  The body of `switch`
 ============
 Case: "¿A quién le importa?" is a single from 1984 sung by Alaska and Dinamara, and edited by Nacho Canut and Carlos Berlanga.
 There have been a lot of switches in styles up until present for this song. Several covers.
@@ -202,25 +202,25 @@ Curiosities about switch and other accolades:
         // Switches without a body are illegal
         // switch(i);
 Take-away
-1. Switches must have a body!
-2. Switches only accept int, short, long, byte, char, their boxed counterparts, Short, Long, Byte, Character, and String and enums as parameters.
-3. do while is akin to a switch in the sense that it also cannot be done without a body.
-4. for and while can be done without a body.
---- 4. The `java.desktop` module
+1.  Switches must have a body!
+2.  Switches only accept int, short, long, byte, char, their boxed counterparts, Short, Long, Byte, Character, and String and enums as parameters.
+3.  do while is akin to a switch in the sense that it also cannot be done without a body.
+4.  for and while can be done without a body.
+--- 4.  The `java.desktop` module
 ============
 Case: We want an app that lets us surf the web for short stories about Spanish music
 We'll make our first prototype using the "Bandido". A famous spanish album from "Miguel Bosé" containing famous anthem "Amante bandido"
 We'll use this as the name of our module: amante.bandido
 Please find this module in the sources for mastery-4-3-swing and run it.
 Take-away
-1. Java SWING libraries, although part of the JDK, they are not part of the java.base module.
-2. Because they are not part of the java.base module, they have to be required.
-3. To require them, you need to require the java.desktop module. Example:
+1.  Java SWING libraries, although part of the JDK, they are not part of the java.base module.
+2.  Because they are not part of the java.base module, they have to be required.
+3.  To require them, you need to require the java.desktop module. Example:
 module amante.bandido {
     requires java.desktop;
     requires consolerizer;
 }
---- 5. Hiding and shadowing instance members
+--- 5.  Hiding and shadowing instance members
 ============
 Case: "Love of Lesbian" was founded in 1997.
 Alaska actually started in a band called "Alaska y los Pegamoides" in 1979.
@@ -230,8 +230,8 @@ This is band #1 -> Band{capacity=4, members=[Santi Balmes, Julián Saldarriaga, 
 This is band #2 -> QuintetBand{capacity=5}Band{capacity=4, members=[Alaska, Nacho Canut, Ana Curra, Eduardo Benavente, Carlos Berlanga], bandName='Alaska y los Pegamoides'}
 This is band #3 -> GenericBand{capacity=6}Band{capacity=4, members=[Pucho, David "el Indio", Álvaro B. Baglietto, Jorge González, Guillermo Galván, Juanma Latorre], bandName='Vetusta Morla'}
 We notice a few things that may sound odd.
-1. Capacity is different for the subclasses of Band.
-2. Capacity didn't limit the number of allowed members.
+1.  Capacity is different for the subclasses of Band.
+2.  Capacity didn't limit the number of allowed members.
 Band #1 has 4 members
 Band #2 has 4 members
 Band #3 has 4 members
@@ -244,12 +244,12 @@ Band #1 has 4 members
 Band #2 has 5 members
 Band #3 has 6 members
 Take-away
-1. Shadowing involves covering another variable. There is no limitation on how this can be done
-2. The overshadowing member will also overshadow the scope
-3. Methods do get overridden regardless of @Override
-4. Capacity in an ArrayList only means that the initial capacity of the Array is fixed.
-5. An ArrayList will change size automatically. Capacity is just used in performance and memory usage fine tuning.
---- 6. Bypassing overloading methods with different return types
+1.  Shadowing involves covering another variable. There is no limitation on how this can be done
+2.  The overshadowing member will also overshadow the scope
+3.  Methods do get overridden regardless of @Override
+4.  Capacity in an ArrayList only means that the initial capacity of the Array is fixed.
+5.  An ArrayList will change size automatically. Capacity is just used in performance and memory usage fine tuning.
+--- 6.  Bypassing overloading methods with different return types
 ============
 Case: We want to go one of the "La casa azul" concerts.
 Time is running out to book them, we don't know to which one we can go to.
@@ -271,11 +271,11 @@ We finally should only have one ticket in our reservation:
 [193874567394857]
 Hurrah! We are going to Seville, ES to watch La casa azul with ticket 193874567394857 on the 2019-06-29T00:00
 Take-away
-1. Methods can be overloaded if their parameters are different both in number and in types
-2. The compiler cannot tell two methods apart if they differ only in their return type
-3. This makes sense because if you call a method and do not assign its return value, you also would not be able to tell which method should be called would you?
-4. By the previous point we can also infer that parameter naming will not play a role in overloading since we don't call methods via their parameters name in Java... Not yet at least 😊
---- 7. Immutability standards and using `LocalDate` and `LocalDateTime`
+1.  Methods can be overloaded if their parameters are different both in number and in types
+2.  The compiler cannot tell two methods apart if they differ only in their return type
+3.  This makes sense because if you call a method and do not assign its return value, you also would not be able to tell which method should be called would you?
+4.  By the previous point we can also infer that parameter naming will not play a role in overloading since we don't call methods via their parameters name in Java... Not yet at least 😊
+--- 7.  Immutability standards and using `LocalDate` and `LocalDateTime`
 ============
 Case: Alaska started a show in 1984 based on the writings of Dolores Rico Oliver called "La bola de cristal".
 "La bola de cristal", if yo haven't guessed already means "The cristal ball"
@@ -328,13 +328,13 @@ This is our copy:
 CristalBall{host='Alaska', localDate=1986-10-06, localDateTime=1986-10-06T00:00, date=Mon Oct 06 00:00:00 CET 1986, band=Band{capacity=4, members=[Alaska, Nacho Canut, Ana Curra, Eduardo Benavente, Ca
 rlos Berlanga], bandName='Alaska y los Pegamoides'}, priv=sun.security.provider.DSAPrivateKey@ffee1843, comment='Me encanta este show! Super guay!!'}
 Take-away
-1. We followed the Java Security Guidelines for Mutability from point 1 to 5, which are the most common
+1.  We followed the Java Security Guidelines for Mutability from point 1 to 5, which are the most common
 1.1 Guideline 6-1 / MUTABLE-1: Prefer immutability for value types
 1.2 Guideline 6-2 / MUTABLE-2: Create copies of mutable output values
 1.3 Guideline 6-3 / MUTABLE-3: Create safe copies of mutable and subclassable input values
 1.4 Guideline 6-4 / MUTABLE-4: Support copy functionality for a mutable class
 1.5 Guideline 6-5 / MUTABLE-5: Do not trust identity equality when overridable on input reference objects
---- 8. Overwriting with `FileOutputStream`
+--- 8.  Overwriting with `FileOutputStream`
 ============
 Case: "Sueño su boca" was the first big hit of Raúl Cuenca in Spain.
 In the year 2000, this hit was being played all across spanish speaking countries and the rest of the latin world.
@@ -361,11 +361,11 @@ from https://genius.com/Raul-sueno-su-boca-lyrics
 Paso firme y elegante, la mirada interesante
 Van t
 Take-away
-1. By default, FileOutputStream is configured to have the appendMode to false.
-2. If appendMode is disable, the file gets overwritten.
-3. Overwriting a file means that the file is written all over again.
-4. When we start again, we remove all original data.
---- 9. Why use `putIfAbsent`?
+1.  By default, FileOutputStream is configured to have the appendMode to false.
+2.  If appendMode is disable, the file gets overwritten.
+3.  Overwriting a file means that the file is written all over again.
+4.  When we start again, we remove all original data.
+--- 9.  Why use `putIfAbsent`?
 ============
 Case: Someone in your group of friends suggested to go to the next concert of Paulina Rubio.
 Unfortunatelly you cannot go.
@@ -414,10 +414,10 @@ Ticket{venue='Valdemoro - Madrid - España', ticketNumber='ES0384518495', localD
 Ticket{venue='Valdemoro - Madrid - España', ticketNumber='ES6674993217', localDateTime=2010-05-08T00:00}=Viktor
 Ticket{venue='Valdemoro - Madrid - España', ticketNumber='ES9928465748', localDateTime=2010-05-08T00:00}=Andrea
 Take-away
-1. In order to add to a hashmap in a concurrent way, we should use an atomic operation.
-2. putIfAbsent performs a check if exists and add then if not, it puts an element into the map in an atomic way.
-3. This, also works in a non-thread safe map.
-4. For that we do not have to combine our operation with a ConcurrentHashMap which is thread safe.
+1.  In order to add to a hashmap in a concurrent way, we should use an atomic operation.
+2.  putIfAbsent performs a check if exists and add then if not, it puts an element into the map in an atomic way.
+3.  This, also works in a non-thread safe map.
+4.  For that we do not have to combine our operation with a ConcurrentHashMap which is thread safe.
 --- 10. Evaluation order of conditional operators
 ============
 Case: Pepe is a manager that loves going to concerts.
@@ -429,10 +429,10 @@ We'll check this:
 Pepe is going to see Sidonie on the 2011-11-24T00:00
 Pepe won't be coming to work this november!
 Take-away
-1. Logic operators such as || and && can short circuit in Java
-2. Short circuiting does not imply the evaluation of all operands
-3. Since they are evaluated left to right and considering mathematical precedence, the runtime knows when further evaluation is not needed
-4. When not all operands are evaluated, we call this  a short-circuit
+1.  Logic operators such as || and && can short circuit in Java
+2.  Short circuiting does not imply the evaluation of all operands
+3.  Since they are evaluated left to right and considering mathematical precedence, the runtime knows when further evaluation is not needed
+4.  When not all operands are evaluated, we call this  a short-circuit
 --- 11. Method overloading and overriding with `extends`
 ============
 Case: Some of us like music "Rosario Flores" style, others prefer something more edgy like "Dorian".
@@ -463,11 +463,11 @@ Had we used the overriden methods we would have gotten:
 and
 {QuintetBand{capacity=5}Band{capacity=4, members=[Alaska, Nacho Canut, Ana Curra, Eduardo Benavente, Carlos Berlanga], bandName='Alaska y los Pegamoides'}=2020-11-30}
 Take-away
-1. Overloading and overriding with extends obeys some specific rules
-2. The base type is the parameter you have to use in order to override
-3. Subclass types of the declared base parameter always results in overloading
-4. The return parameters may be subclass types
-5. Since they have to be subclasses or the same, the type cannot be erased when overriding
+1.  Overloading and overriding with extends obeys some specific rules
+2.  The base type is the parameter you have to use in order to override
+3.  Subclass types of the declared base parameter always results in overloading
+4.  The return parameters may be subclass types
+5.  Since they have to be subclasses or the same, the type cannot be erased when overriding
 --- 12. Immutability with Guidelines 7 and 6
 ============
 Case: We just made a much safer Cristal Ball for Alaska to use.
@@ -490,15 +490,15 @@ java.lang.RuntimeException: Ahha! Not today you are not!
 
 It's magic!
 Take-away
-1. We've made a few tests here, but this module will not be able to cover all of guidelines 6 and 7
-2. Guideline 6 is about protecting Mutability
-3. Guideline 7 is about protecting Object construction
-4. Some guidelines may fuse with each other
-5. Some are much more important than others
-6. Guideline 7-1 / OBJECT-1: Avoid exposing constructors of sensitive classes
-7. Guideline 7-2 / OBJECT-2: Prevent the unauthorized construction of sensitive classes
-8. Guideline 7-4 / OBJECT-4: Prevent constructors from calling methods that can be overridden
-9. Guideline 7-5 / OBJECT-5: Defend against cloning of non-final classes
+1.  We've made a few tests here, but this module will not be able to cover all of guidelines 6 and 7
+2.  Guideline 6 is about protecting Mutability
+3.  Guideline 7 is about protecting Object construction
+4.  Some guidelines may fuse with each other
+5.  Some are much more important than others
+6.  Guideline 7-1 / OBJECT-1: Avoid exposing constructors of sensitive classes
+7.  Guideline 7-2 / OBJECT-2: Prevent the unauthorized construction of sensitive classes
+8.  Guideline 7-4 / OBJECT-4: Prevent constructors from calling methods that can be overridden
+9.  Guideline 7-5 / OBJECT-5: Defend against cloning of non-final classes
 --- 13. `Float.POSITIVE_INFINITY` vs `Float.NEGATIVE_INFINITY`
 ============
 Case: Vetusta Morla publish in 2020 its fith studio album entitled "Mismo Sitio Distinto Lugar - Canciones dentro de canciones".
@@ -533,9 +533,9 @@ Bingo! -> java.lang.ArithmeticException: / by zero
 	at org.jesperancinha.java11.mastery4dot2.Mastery4Dot2Runner.exercise13(Mastery4Dot2Runner.java:393)
 	at org.jesperancinha.java11.mastery4dot2.Mastery4Dot2Runner.main(Mastery4Dot2Runner.java:97)
 Take-away
-1. There infinity representations for Float and Double calculations
-2. Numbers without decimals cannot make a division by zero
-3. Division by zero with Float and Double are akin to ∞ (infinity) in math.
+1.  There infinity representations for Float and Double calculations
+2.  Numbers without decimals cannot make a division by zero
+3.  Division by zero with Float and Double are akin to ∞ (infinity) in math.
 --- 14. Static and instance initialization of final `members`
 ============
 Case: We know that the band Dorian is mostly classified as being an Indie pop group.
@@ -543,10 +543,10 @@ We'll create its registry and see the many different ways we can initialize fina
 Have a look in the code. All these fields are mandatory and cannot change because they are final
 This is our band Indie{harshVoice=false, sweetVoice=true, huskyVoice=true, digitalInstruments=true, name='Dorian', indieMusic=true}
 Take-away
-1. All final fields have to be initialized
-2. There is no difference in this mandatory action between static and instance members
-3. Members can be initialized using accolades
-4. There isn't a lot of reasons to use accolades this way. Just know that they work
+1.  All final fields have to be initialized
+2.  There is no difference in this mandatory action between static and instance members
+3.  Members can be initialized using accolades
+4.  There isn't a lot of reasons to use accolades this way. Just know that they work
 --- 15. Iterating through a `CopyOnWriteArrayList` and the `UnsupportedOperationException`
 ============
 Case: Someone is compiling songs of the band Dorian for you.
@@ -584,9 +584,9 @@ We cannot! And this is because this iterator is working with an array that is al
 	at org.jesperancinha.java11.mastery4dot2.Mastery4Dot2Runner.exercise15(Mastery4Dot2Runner.java:322)
 	at org.jesperancinha.java11.mastery4dot2.Mastery4Dot2Runner.main(Mastery4Dot2Runner.java:99)
 Take-away
-1. CopyOnWriteArrayList make a copy on every write operation
-2. This way, there will be no concurrent type of exception thrown
-3. The iterator of this type of List's does not support modifications
+1.  CopyOnWriteArrayList make a copy on every write operation
+2.  This way, there will be no concurrent type of exception thrown
+3.  The iterator of this type of List's does not support modifications
 --- 16. NavigableMap and `pollLastEntry` and `pollFirstEntry`
 ============
 Case: "Supersubmarina" is a band from Spain.
@@ -608,9 +608,9 @@ So the our album collection looks like this: {Supersubmarina=[Supersubmarina, An
 We just took out the last album: Supersubmarina=[Supersubmarina, Ana, Supersubmarina, OCB]
 So the our album collection should be empty now: {}
 Take-away
-1. Navigable maps are very simple
-2. Important methods are pollFirstEntry, pollLastEntry, tailMap and headMaps
-3. Head is exclusive, whiile tail is inclusive
+1.  Navigable maps are very simple
+2.  Important methods are pollFirstEntry, pollLastEntry, tailMap and headMaps
+3.  Head is exclusive, whiile tail is inclusive
 --- 17. `writeUTF` and where it is possible with `BufferedWriter` and `FileOutputWriter`
 ============
 Case: In the year 2000, spanish singer, Monica Naranjo, came into the music scene with her hit "Sobreviviré"
@@ -680,9 +680,9 @@ Y al anochecer vuelve a florecer
 Lúbrica la ciudad
 No hay en el mundo, no
 Nadie más dura que yo
-1. We can specify UTF with FileWriter, OutputStreamWriter and with ObjectOutputStream
-2. It is not mandatory to specify UTF with Writers. CharSet is optional
-3. In the OutputStream we have methods that can write in UTF directly (writeUTF)
+1.  We can specify UTF with FileWriter, OutputStreamWriter and with ObjectOutputStream
+2.  It is not mandatory to specify UTF with Writers. CharSet is optional
+3.  In the OutputStream we have methods that can write in UTF directly (writeUTF)
 --- 18. `Arrays` `binarySearch`
 ============
 Case: We have compiled a list of of all Lori Meyers albums we know
@@ -695,9 +695,9 @@ After sorting, our record collection is:
 [Cronolánea, Cuando el destino nos alcance, Hostal Pimodán, Hostal Pimodán (reedición), Impronta, Viaje de estudios, Viaje de estudios (reedición)]
 Once sorted, we finally have insertion point -3. This is correct
 Take-away
-1. In order to make binarySearch for Arrays, we have to sort them first
-2. Sorting arrays and therefore being able to perform a faster and more accurate binary search isn't specific to Java
-3. The insertion point is an index. It is describe as a negative number
+1.  In order to make binarySearch for Arrays, we have to sort them first
+2.  Sorting arrays and therefore being able to perform a faster and more accurate binary search isn't specific to Java
+3.  The insertion point is an index. It is describe as a negative number
 --- 19. `try-with-resources` `open` and `close` methods.
 ============
 Case: We are at the end of our mastery module
@@ -716,11 +716,11 @@ Keep playing and let the rhythm guide you! João Esperancinha
 		at org.jesperancinha.java11.mastery4dot2.Mastery4Dot2Runner.exercise19(Mastery4Dot2Runner.java:116)
 		... 1 more
 Take-away
-1. We can use try-with-resources even after we've created our autocloseable instance
-2. A suppressed exception occurs when closing fails
-3. The suppressed exception is the closing exception when one is thrown in the try block
-4. The main exception is the one thrown during the try scope
-5. If no exception is thrown during the try block, no suppressed exception is thrown
+1.  We can use try-with-resources even after we've created our autocloseable instance
+2.  A suppressed exception occurs when closing fails
+3.  The suppressed exception is the closing exception when one is thrown in the try block
+4.  The main exception is the one thrown during the try scope
+5.  If no exception is thrown during the try block, no suppressed exception is thrown
 🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
 Hope you enjoyed this mastery into Java 11 with some Spanish Indie/Pop flavor to it.
 Please keep coming back as I'll be creating more mastery modules.
@@ -732,57 +732,57 @@ Process finished with exit code 0
 
 ## References
 
-- [Implementig a Class Loader](https://docstore.mik.ua/orelly/java-ent/security/ch03_04.htm)
-- [Installing Your Security Manager](https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/networking/security/installSMgr.html)
-- [Writing a Security Manager](https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/networking/security/writingSMgr.html)
-- [SecurityManager checkPackageAccess() Method](https://www.tutorialspoint.com/java/lang/securitymanager_checkpackageaccess.htm)
-- [Rapid Tables](https://www.rapidtables.com/convert/number/decimal-to-octal.html)
-- [Definition of Double in C, C++ and C#](https://www.thoughtco.com/definition-of-double-958065#:~:text=Double%20vs.&text=Its%20range%20is%20approximately%201.5,to%201.7%20%C3%97%2010308.)
-- [Size of Floats](https://chortle.ccsu.edu/java5/Notes/chap11/ch11_2.html)
-- [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
-- [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
-- [Primitive Data Types by Docs@Oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-- [Java: Primitive data types](https://cs.fit.edu/~ryan/java/language/java-data.html)
-- [Examples of Formatting Float or Double Numbers to String in Java](https://www.java67.com/2014/06/how-to-format-float-or-double-number-java-example.html)
-- [Floating-Point Types, Formats, and Values](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3)
+-   [Implementig a Class Loader](https://docstore.mik.ua/orelly/java-ent/security/ch03_04.htm)
+-   [Installing Your Security Manager](https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/networking/security/installSMgr.html)
+-   [Writing a Security Manager](https://www.cis.upenn.edu/~bcpierce/courses/629/papers/Java-tutorial/networking/security/writingSMgr.html)
+-   [SecurityManager checkPackageAccess() Method](https://www.tutorialspoint.com/java/lang/securitymanager_checkpackageaccess.htm)
+-   [Rapid Tables](https://www.rapidtables.com/convert/number/decimal-to-octal.html)
+-   [Definition of Double in C, C++ and C#](https://www.thoughtco.com/definition-of-double-958065#:~:text=Double%20vs.&text=Its%20range%20is%20approximately%201.5,to%201.7%20%C3%97%2010308.)
+-   [Size of Floats](https://chortle.ccsu.edu/java5/Notes/chap11/ch11_2.html)
+-   [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
+-   [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
+-   [Primitive Data Types by Docs@Oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+-   [Java: Primitive data types](https://cs.fit.edu/~ryan/java/language/java-data.html)
+-   [Examples of Formatting Float or Double Numbers to String in Java](https://www.java67.com/2014/06/how-to-format-float-or-double-number-java-example.html)
+-   [Floating-Point Types, Formats, and Values](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3)
 
 ---
 
-- [Lori Meyers](https://en.wikipedia.org/wiki/Lori_Meyers)
-- [Sobreviviré (canción)](https://es.wikipedia.org/wiki/Sobrevivir%C3%A9_(canci%C3%B3n))
-- [Sobreviviré - Monica Naranjo](https://www.letras.mus.br/monica-naranjo/130411/)
-- [Supersubmarina](https://es.wikipedia.org/wiki/Supersubmarina)
-- [TOP 15 MEJORES CANCIONES DE DORIAN](https://culturadiversa.es/2018/05/mejores-canciones-de-dorian.html)
-- [Dorian_(banda)](https://es.wikipedia.org/wiki/Dorian_(banda))
-- [Vetusta Morla y la infinidad de canciones que hay en una canción](https://www.elindependiente.com/tendencias/musica/2020/06/13/vetusta-morla-y-la-infinidad-de-canciones-que-hay-en-una-cancion/)
-- [Rosario Flores](https://en.wikipedia.org/wiki/Rosario_Flores)
-- [Paulina Rubio](https://nl.wikipedia.org/wiki/Paulina_Rubio)
-- [Sidonie (2011) Teatro Circo Price. Madrid](https://www.mercadeopop.com/sidonie-2011-teatro-circo-price-madrid/)
-- [Vetusta Morla en Concierto en Granada](https://www.granadamarcha.com/2011/11/07/vetusta-morla-en-concierto-en-granada/)
-- [Arranca la gira española de Paulina Rubio](https://www.20minutos.es/noticia/700639/0/paulina/rubio/gira/)
-- [Raúl - Sueño su boca](https://genius.com/Raul-sueno-su-boca-lyrics)
-- [Raúl Fuentes Cuenca](https://en.wikipedia.org/wiki/Ra%C3%BAl_Fuentes_Cuenca)
-- [La Bola de Cristal](https://en.wikipedia.org/wiki/La_Bola_de_Cristal)
-- [La Casa Azul](https://en.wikipedia.org/wiki/La_Casa_Azul)
-- [Alaska y los Pegamoides](https://es.wikipedia.org/wiki/Alaska_y_los_Pegamoides)
-- [Vetusta Morla](https://es.wikipedia.org/wiki/Vetusta_Morla)
-- [La Casa Azul](https://nl.wikipedia.org/wiki/La_Casa_Azul)
-- [Love of Lesbian](https://en.wikipedia.org/wiki/Love_of_Lesbian)
-- [RUBÍ 2020, entrada completa a quien le importa](https://www.youtube.com/watch?v=aNMdaRbX_-k)
-- [Rosa López · A quién le importa - 2020](https://www.youtube.com/watch?v=NxlfzjWX2Z4)
-- [A QUIÉN LE IMPORTA - Grupal | Gala 7 | OT 2017](https://www.youtube.com/watch?v=hoH6OXQpmQY)
-- [Himno World Pride Madrid 2017 - A quien le importa 2017](https://www.lasexta.com/especiales/world-pride-madrid/orgullo-lgtbi/a-quien-le-importa-asi-suena-el-himno-oficial-del-world-pride-madrid-2017_201706285953f2d20cf2a25c00ab7737.html)
-- [Fangoria - A quien le importa 2011](https://www.youtube.com/watch?v=XX_hWpPnd3I)
-- [Thalia - A Quien Le Importa - Video Oficial 2002](https://www.youtube.com/watch?v=s0MG5mdwweU)
-- [Alaska y Dinarama A Quién Le Importa (1984)](https://www.youtube.com/watch?v=N2L7cRsUA0E)
-- [¿A quién le importa?](https://en.wikipedia.org/wiki/%C2%BFA_qui%C3%A9n_le_importa%3F)
-- [Paloma San Basilio](https://nl.wikipedia.org/wiki/Paloma_San_Basilio)
-- [Juntos Sencillo Paloma San Basilio @ Chordify](https://chordify.net/chords/juntos-sencillo-juntos-paloma-san-basilio-arturo-baez-velasquez)
-- [Juntos (canción)](https://es.wikipedia.org/wiki/Juntos_(canci%C3%B3n))
-- [Analysis of Fangoria by Prezi](https://prezi.com/goxtiwbslbm1/analysis-of-fangoria/)
-- [The Bloody History of Fangoria, the Magazine That Changed the Way We View Horror Movies](https://www.mentalfloss.com/article/560144/how-fangoria-magazine-changed-horror-movies)
-- [Fangoria magazine](https://en.wikipedia.org/wiki/Fangoria)
-- [Fangoria band](https://en.wikipedia.org/wiki/Fangoria_(band))
+-   [Lori Meyers](https://en.wikipedia.org/wiki/Lori_Meyers)
+-   [Sobreviviré (canción)](https://es.wikipedia.org/wiki/Sobrevivir%C3%A9_(canci%C3%B3n))
+-   [Sobreviviré - Monica Naranjo](https://www.letras.mus.br/monica-naranjo/130411/)
+-   [Supersubmarina](https://es.wikipedia.org/wiki/Supersubmarina)
+-   [TOP 15 MEJORES CANCIONES DE DORIAN](https://culturadiversa.es/2018/05/mejores-canciones-de-dorian.html)
+-   [Dorian_(banda)](https://es.wikipedia.org/wiki/Dorian_(banda))
+-   [Vetusta Morla y la infinidad de canciones que hay en una canción](https://www.elindependiente.com/tendencias/musica/2020/06/13/vetusta-morla-y-la-infinidad-de-canciones-que-hay-en-una-cancion/)
+-   [Rosario Flores](https://en.wikipedia.org/wiki/Rosario_Flores)
+-   [Paulina Rubio](https://nl.wikipedia.org/wiki/Paulina_Rubio)
+-   [Sidonie (2011) Teatro Circo Price. Madrid](https://www.mercadeopop.com/sidonie-2011-teatro-circo-price-madrid/)
+-   [Vetusta Morla en Concierto en Granada](https://www.granadamarcha.com/2011/11/07/vetusta-morla-en-concierto-en-granada/)
+-   [Arranca la gira española de Paulina Rubio](https://www.20minutos.es/noticia/700639/0/paulina/rubio/gira/)
+-   [Raúl - Sueño su boca](https://genius.com/Raul-sueno-su-boca-lyrics)
+-   [Raúl Fuentes Cuenca](https://en.wikipedia.org/wiki/Ra%C3%BAl_Fuentes_Cuenca)
+-   [La Bola de Cristal](https://en.wikipedia.org/wiki/La_Bola_de_Cristal)
+-   [La Casa Azul](https://en.wikipedia.org/wiki/La_Casa_Azul)
+-   [Alaska y los Pegamoides](https://es.wikipedia.org/wiki/Alaska_y_los_Pegamoides)
+-   [Vetusta Morla](https://es.wikipedia.org/wiki/Vetusta_Morla)
+-   [La Casa Azul](https://nl.wikipedia.org/wiki/La_Casa_Azul)
+-   [Love of Lesbian](https://en.wikipedia.org/wiki/Love_of_Lesbian)
+-   [RUBÍ 2020, entrada completa a quien le importa](https://www.youtube.com/watch?v=aNMdaRbX_-k)
+-   [Rosa López · A quién le importa - 2020](https://www.youtube.com/watch?v=NxlfzjWX2Z4)
+-   [A QUIÉN LE IMPORTA - Grupal | Gala 7 | OT 2017](https://www.youtube.com/watch?v=hoH6OXQpmQY)
+-   [Himno World Pride Madrid 2017 - A quien le importa 2017](https://www.lasexta.com/especiales/world-pride-madrid/orgullo-lgtbi/a-quien-le-importa-asi-suena-el-himno-oficial-del-world-pride-madrid-2017_201706285953f2d20cf2a25c00ab7737.html)
+-   [Fangoria - A quien le importa 2011](https://www.youtube.com/watch?v=XX_hWpPnd3I)
+-   [Thalia - A Quien Le Importa - Video Oficial 2002](https://www.youtube.com/watch?v=s0MG5mdwweU)
+-   [Alaska y Dinarama A Quién Le Importa (1984)](https://www.youtube.com/watch?v=N2L7cRsUA0E)
+-   [¿A quién le importa?](https://en.wikipedia.org/wiki/%C2%BFA_qui%C3%A9n_le_importa%3F)
+-   [Paloma San Basilio](https://nl.wikipedia.org/wiki/Paloma_San_Basilio)
+-   [Juntos Sencillo Paloma San Basilio @ Chordify](https://chordify.net/chords/juntos-sencillo-juntos-paloma-san-basilio-arturo-baez-velasquez)
+-   [Juntos (canción)](https://es.wikipedia.org/wiki/Juntos_(canci%C3%B3n))
+-   [Analysis of Fangoria by Prezi](https://prezi.com/goxtiwbslbm1/analysis-of-fangoria/)
+-   [The Bloody History of Fangoria, the Magazine That Changed the Way We View Horror Movies](https://www.mentalfloss.com/article/560144/how-fangoria-magazine-changed-horror-movies)
+-   [Fangoria magazine](https://en.wikipedia.org/wiki/Fangoria)
+-   [Fangoria band](https://en.wikipedia.org/wiki/Fangoria_(band))
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=qSkcpM0zDnU">
@@ -937,18 +937,18 @@ Process finished with exit code 0
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

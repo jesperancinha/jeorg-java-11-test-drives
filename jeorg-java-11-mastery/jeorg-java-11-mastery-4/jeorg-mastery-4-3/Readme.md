@@ -4,15 +4,15 @@ Welcome to my 9th Mastery Module: "And then Indie"
 
 ## Exercise
 
-1. Indexes in a `ResultSet`
-2. Using `mapToObj`
-3. Mutability Guidelines with focus on 6.6.
-4. Valid modes in `RandomAccessFile`. Difference from using `append`
-5. `Predicate` of types
-6. Downcasting and Upcasting
-7. `jdeps` alternative `commands` [mastery-4-3-modularity](../mastery-4-3-modularity)
-8. Boxing and the difference between primitives
-9. `++i` `i++` in a loop
+1.  Indexes in a `ResultSet`
+2.  Using `mapToObj`
+3.  Mutability Guidelines with focus on 6.6.
+4.  Valid modes in `RandomAccessFile`. Difference from using `append`
+5.  `Predicate` of types
+6.  Downcasting and Upcasting
+7.  `jdeps` alternative `commands` [mastery-4-3-modularity](../mastery-4-3-modularity)
+8.  Boxing and the difference between primitives
+9.  `++i` `i++` in a loop
 10. Collecting duplicate entries to a `Map`
 11. `readPassword` in `Console`
 12. Complex `operands` and `operators`
@@ -42,7 +42,7 @@ folder at this point.
 ----> Run with -skip to skip questions
 ----> Note that this mastery need the prepare.sh script to be run first.
 ========================================================================================================================
---- 1. Indexes in a `ResultSet`
+--- 1.  Indexes in a `ResultSet`
 ========================================================================================================================
 Case: We are wondering what happened to MGMT and why we don't hear about them anymore.
 On this first exercise we will investigate their triad of hits.
@@ -100,12 +100,12 @@ resultSet.getArray("HITYEAR");-> ar10: [2008]
 resultSet.getArray(3); -> ar11: [2008]
 ------------------------------------------------------------------------------------------------------------------------
 Take-away
-1. In Result sets, indexes are 1 based
-2. Conversions happen automatically if they match
-3. An Int if convertible to Integer, Long, Float, Double and Big Integer
-4. We can even get a special java.sql.Array type, which  returns the data in an array form valid for all types
+1.  In Result sets, indexes are 1 based
+2.  Conversions happen automatically if they match
+3.  An Int if convertible to Integer, Long, Float, Double and Big Integer
+4.  We can even get a special java.sql.Array type, which  returns the data in an array form valid for all types
 ========================================================================================================================
---- 2. Using `mapToObj`
+--- 2.  Using `mapToObj`
 ========================================================================================================================
 Case: Oracular Spectacular reached interesting top positions world-wide.
 Let's have a look at the math behind it
@@ -197,15 +197,15 @@ Curiosity 4 (no values) ->  0,000000
 Note that the double average is more accurate because Long and Int have round up the decimals to unit.
 ------------------------------------------------------------------------------------------------------------------------
 Take-away
-1. Calculating average can be done in different ways.
-2. All ways require the return value to double in the end unless we make our custom calculation.
-3. Using collectors, the result in never an Optional and this is because that is the way collectors work.
-4. Number streams do have collectors. We calculated avg using our own average implementation, but it will always be less efficient.
-5. The collector of the Number streams are used to solve value accumulation issues. They are perfect for custom reduce operations.
-6. The BiConsumer of a Number stream collector is called only during `parallel` stream operations. It is not called at all otherwise.
-7. The `average` method of a Number stream is there to solve this problem. However, it returns an `OptionalDouble`. We then call getAsDouble to know the value.
+1.  Calculating average can be done in different ways.
+2.  All ways require the return value to double in the end unless we make our custom calculation.
+3.  Using collectors, the result in never an Optional and this is because that is the way collectors work.
+4.  Number streams do have collectors. We calculated avg using our own average implementation, but it will always be less efficient.
+5.  The collector of the Number streams are used to solve value accumulation issues. They are perfect for custom reduce operations.
+6.  The BiConsumer of a Number stream collector is called only during `parallel` stream operations. It is not called at all otherwise.
+7.  The `average` method of a Number stream is there to solve this problem. However, it returns an `OptionalDouble`. We then call getAsDouble to know the value.
 ========================================================================================================================
---- 3. Mutability Guidelines with focus on 6.6.
+--- 3.  Mutability Guidelines with focus on 6.6.
 ========================================================================================================================
 Case: In January 2020, Vampire Weekend won the best Album of the Year at the Grammy's.
 At the same time they have had already released a limited edition orange vinyl version of this album.
@@ -231,10 +231,10 @@ Your original is still there 😉!!
 Album{albumName='Father of the Bride (Vinyl - Orange, Limited Edition)', band='Vampire Weekend', songs=I know the reason why you think you gotta leave, We took a vow in summertime}
 ------------------------------------------------------------------------------------------------------------------------
 Take-away
-1. Guideline 6-6 / MUTABLE-6: Treat passing input to untrusted object as output
-2. More info: https://www.oracle.com/java/technologies/javase/seccodeguide.html
+1.  Guideline 6-6 / MUTABLE-6: Treat passing input to untrusted object as output
+2.  More info: https://www.oracle.com/java/technologies/javase/seccodeguide.html
 ========================================================================================================================
---- 4. Valid modes in `RandomAccessFile`. Difference from using `append`
+--- 4.  Valid modes in `RandomAccessFile`. Difference from using `append`
 ========================================================================================================================
 Case: We are writing the lyrics to Contra
 We will use alternative methods to do so and alternate
@@ -255,13 +255,13 @@ Don't call me a contra
 Till you've tried
 ------------------------------------------------------------------------------------------------------------------------
 Take-away
-1. With RandomAccessFile, we can use seek to get to a point in the file.
-2. With RandomAccessFile, we know how many bytes exist in the file.
-3. With RandomAccessFile, the position after the end of the file has an index number equal to the file size.
-4. The index is based on an inclusive start index and an exclusive end index.
-5. With FileOutputStream we can append data at the end of the file without the need for seek. The append option does this for us.
+1.  With RandomAccessFile, we can use seek to get to a point in the file.
+2.  With RandomAccessFile, we know how many bytes exist in the file.
+3.  With RandomAccessFile, the position after the end of the file has an index number equal to the file size.
+4.  The index is based on an inclusive start index and an exclusive end index.
+5.  With FileOutputStream we can append data at the end of the file without the need for seek. The append option does this for us.
 ========================================================================================================================
---- 5. `Predicate` of types
+--- 5.  `Predicate` of types
 ========================================================================================================================
 Case: Vampire Weekend had 2 wind by the Grammys for two of their albums.
 We'll build some predicates based on this and see the small differences.
@@ -269,11 +269,11 @@ Albunm Album{albumName='Father of the Bride (Vinyl - Orange, Limited Edition)', 
 Album Album{albumName='Modern Vampires of The City', band='Vampire Weekend', songs=} won the grammys -> true
 Album Album{albumName='Contra', band='Vampire Weekend', songs=} won the grammys -> false
 Take-away
-1. Predicate with types are checked and therefore the reference much be checked as well for type
-2. Predicate without types are unchecked and unsafe and therefore the reference cannot be typed.
-3. You don't have to define the type of the input parameter if you already have done so for the reference.
-4. The previous rule works the same way as the diamond notation works.
---- 6. Downcasting and Upcasting
+1.  Predicate with types are checked and therefore the reference much be checked as well for type
+2.  Predicate without types are unchecked and unsafe and therefore the reference cannot be typed.
+3.  You don't have to define the type of the input parameter if you already have done so for the reference.
+4.  The previous rule works the same way as the diamond notation works.
+--- 6.  Downcasting and Upcasting
 ========================================================================================================================
 Case: Hercules and Love Affair is on tour and you are going to see them in the backstage!
 Can you go on their trailer? Probably not ☹️. We'll look into the not case.
@@ -292,23 +292,23 @@ Finally a tour trailer HLA is also just a trailer
 The subclass TourTrailer is just a more specific case of Trailer
 And so we have the Trailer as Trailer{band='Hercules and Love Affair'}
 Take-away
-1. var declaration plays a smaller role in downcasting and upcasting, since the type is assigned on the right side.
-2. Upcasting is automatic, when the subtype is known.
-3. Casting in general has to be explicit if the subtype is unknown.
-4. Compilation errors occurs when the subtype is known and doesn't match the type being cast to.
-5. If it is possible to downcast, the compiler has no way to differentiate the actual instance being referenced to.
-6. The later results in a ClassCastException, which is a RuntimeException because only during runtime will the actual cast be attempted.
+1.  var declaration plays a smaller role in downcasting and upcasting, since the type is assigned on the right side.
+2.  Upcasting is automatic, when the subtype is known.
+3.  Casting in general has to be explicit if the subtype is unknown.
+4.  Compilation errors occurs when the subtype is known and doesn't match the type being cast to.
+5.  If it is possible to downcast, the compiler has no way to differentiate the actual instance being referenced to.
+6.  The later results in a ClassCastException, which is a RuntimeException because only during runtime will the actual cast be attempted.
 ========================================================================================================================
---- 7. `jdeps` alternative `commands`
+--- 7.  `jdeps` alternative `commands`
 ========================================================================================================================
 Case: Let's examine jdeps by looking at Song "Cousins" from Vampire Weekend
 Please run mastery-4-3-modularity in order to fulfill this exercise.
 Take-away
-1. You can call jdeps with -cp -classpath or --class-path.
-2. Classpath only works with unamed modules/automatic modules and their dependencies.
-3. Classpath does not work for modules that depend on automatic modules.
+1.  You can call jdeps with -cp -classpath or --class-path.
+2.  Classpath only works with unamed modules/automatic modules and their dependencies.
+3.  Classpath does not work for modules that depend on automatic modules.
 ========================================================================================================================
---- 8. Boxing and the difference between primitives
+--- 8.  Boxing and the difference between primitives
 ========================================================================================================================
 Case: The album "Hercules and The Love Affair" of the band of the same name was published on the 10th of March 2008.
 We are going to use the numerology related to this album to explore boxing from primitive values
@@ -322,11 +322,11 @@ The album starts with letter 'H' which is an 72 in the integer form.
 Since the duration is shorter than 127, we can register it in a Byte 46.
 Finally the published year can be registered in a two byte type like Short 2008.
 Take-away
-1. In Boxing, the only possible conversions are from int to Byte, Short, Character and Integer.
-2. Long needs an L at the end of it.There is no automatic conversion.
-3. Double and Float need D and F respectively. There is no automatic conversion.
+1.  In Boxing, the only possible conversions are from int to Byte, Short, Character and Integer.
+2.  Long needs an L at the end of it.There is no automatic conversion.
+3.  Double and Float need D and F respectively. There is no automatic conversion.
 ========================================================================================================================
---- 9. `++i` `i++` in a loop
+--- 9.  `++i` `i++` in a loop
 ========================================================================================================================
 Case: We are going to count the number of songs in "Hercules and The Love Affair" album.
 There are 10 in the normal edition and we are two people counting!
@@ -353,9 +353,9 @@ I count 8 and my friend counts 8
 I count 9 and my friend counts 9
 I counted 10 and my friend counted 10
 Take-away
-1. Although may look confusing, the point of this exercise is to show that ++ on the left side or on the right side, do not make a difference in an ordinary for loop.
-2. When ++ is on the left, we sum first, then read and then return the result. This result goes in the loop.
-3. When ++ is on the right, we read first, then sum and then return the result. This result goes in the loop.
+1.  Although may look confusing, the point of this exercise is to show that ++ on the left side or on the right side, do not make a difference in an ordinary for loop.
+2.  When ++ is on the left, we sum first, then read and then return the result. This result goes in the loop.
+3.  When ++ is on the right, we read first, then sum and then return the result. This result goes in the loop.
 ========================================================================================================================
 --- 10. Collecting duplicate entries to a `Map`
 ========================================================================================================================
@@ -384,10 +384,10 @@ We'll consider the most recent purchase year.
 We finally get our disambiguated map:
 {In a Tidal Wave of Mystery=2016, Solarize=2019}
 Take-away
-1. If there are repeated keys, the map collection fails by default.
-2. A merge strategy can be implemented.
-3. The merge strategy is of type BinaryOperator, which is characterized by have the input and return parameters of the same type.
-4. The later is how we distinguish between operators and functions..
+1.  If there are repeated keys, the map collection fails by default.
+2.  A merge strategy can be implemented.
+3.  The merge strategy is of type BinaryOperator, which is characterized by have the input and return parameters of the same type.
+4.  The later is how we distinguish between operators and functions..
 ========================================================================================================================
 --- 11. `readPassword` in `Console`
 ========================================================================================================================
@@ -414,10 +414,10 @@ Please guess what is the value of z at the end of this execution:
 You got it right!
 18
 Take-away
-1. Operand evaluation is difficult. Keep an eye out for module java-11-mastery-logics for more exercises like this.
-2. Operations follow typical Math operation and follow accolade definitions.
-3. Operands get evaluated first, before the operations.
-4. Disambiguation happens from left to right.
+1.  Operand evaluation is difficult. Keep an eye out for module java-11-mastery-logics for more exercises like this.
+2.  Operations follow typical Math operation and follow accolade definitions.
+3.  Operands get evaluated first, before the operations.
+4.  Disambiguation happens from left to right.
 ========================================================================================================================
 --- 13. Creating and filtering an `IntStream`
 ========================================================================================================================
@@ -432,13 +432,13 @@ If we want to specify type, we can, but its not needed:
 We can also pretend that they reached number 1 with a mapping trick:
 [10, 1, 60, 28, 22, 43, 55, 18, 34, 23]
 Take-away
-1. IntStream is different than Stream.
-2. We know that collect does not take a Collector. It takes a Supplier, a ObjIntConsumer and a BiConsumer.
-3. BiConsumer only works for parallel streams.
-4. IntStream filters work with IntPredicates. They differ from normal predicates in that they only accept integers.
-5. We cannot use a common Predicate in place of a IntPredicate. They are different.
-6. We can map using a IntUnaryOperator.
-7. IntStreams only accept int or varargs of type int. Lists are not allowed. Only arrays.
+1.  IntStream is different than Stream.
+2.  We know that collect does not take a Collector. It takes a Supplier, a ObjIntConsumer and a BiConsumer.
+3.  BiConsumer only works for parallel streams.
+4.  IntStream filters work with IntPredicates. They differ from normal predicates in that they only accept integers.
+5.  We cannot use a common Predicate in place of a IntPredicate. They are different.
+6.  We can map using a IntUnaryOperator.
+7.  IntStreams only accept int or varargs of type int. Lists are not allowed. Only arrays.
 ========================================================================================================================
 --- 14. When to call `flush`
 ========================================================================================================================
@@ -466,10 +466,10 @@ With the most stars
 Where do you drink
 Please check file contents!
 Take-away
-1. The underlying close operation flushes the content to file.
-2. Flush is usually called if you want to write sequentially to a file and not in one go.
-3. This way, we can hold  the buffer in memory and possibly perform changes before  flushing it to a file.
-4. We can also use flush, if we want to keep the buffer available for future writes to a file.
+1.  The underlying close operation flushes the content to file.
+2.  Flush is usually called if you want to write sequentially to a file and not in one go.
+3.  This way, we can hold  the buffer in memory and possibly perform changes before  flushing it to a file.
+4.  We can also use flush, if we want to keep the buffer available for future writes to a file.
 ========================================================================================================================
 --- 15. add `override` in an `ArrayList`
 ========================================================================================================================
@@ -481,11 +481,11 @@ We would have gotten something different if we tried to override with add(Object
 This is our record collection:
 [Feels, Strawberry Jam, Merriweather Post Pavilion]
 Take-away
-1. We cannot overload or override any of the original ArrayList methods with Object because of type erasure.
-2. Type erasure "Replace all type parameters in generic types with their bounds or Object if the type parameters are unbounded"
-3. If for example we attempt to override with add(Object), this won't work
-4. Type erasure will replace add(T) with add(Object) and this will conflict with our own add(Object)
-5. Since they don't override each other, this becomes impossible to do.
+1.  We cannot overload or override any of the original ArrayList methods with Object because of type erasure.
+2.  Type erasure "Replace all type parameters in generic types with their bounds or Object if the type parameters are unbounded"
+3.  If for example we attempt to override with add(Object), this won't work
+4.  Type erasure will replace add(T) with add(Object) and this will conflict with our own add(Object)
+5.  Since they don't override each other, this becomes impossible to do.
 ========================================================================================================================
 --- 16. Overriding methods returning primitives
 ========================================================================================================================
@@ -504,21 +504,21 @@ Integer -> 9
 Long -> 9
 Short -> 9
 Take-away
-1. Methods with primitive return types can only be overridden by methods of the same return type.
-2. There is no averagingFloat collector.
-3. Look into the code and bear in mind the different ways to calculate average.
+1.  Methods with primitive return types can only be overridden by methods of the same return type.
+2.  There is no averagingFloat collector.
+3.  Look into the code and bear in mind the different ways to calculate average.
 ========================================================================================================================
 --- 17. `jdeps` `--module-path` `-cp` `--class-path` and `-classpath`
 ========================================================================================================================
 Case: Let's examine jdeps by looking at Song "Cousins" from Vampire Weekend..,Again!
 Please run mastery-4-3-modularity in order to fulfill this exercise.
 Take-away
-1. You can call jdeps with -cp -classpath or --class-path.
-2. The last element of the command can be converted to an automatic module.
-3. Elements in class path are considered normal jars.
-4. Automatic modules can still read from the class path.
-5. Named modules cannot.
-6. The later two are the reason why the firs command works well and the following doesn't.
+1.  You can call jdeps with -cp -classpath or --class-path.
+2.  The last element of the command can be converted to an automatic module.
+3.  Elements in class path are considered normal jars.
+4.  Automatic modules can still read from the class path.
+5.  Named modules cannot.
+6.  The later two are the reason why the firs command works well and the following doesn't.
 ========================================================================================================================
 --- 18. Abstract classes and the `new` keyword
 ========================================================================================================================
@@ -527,8 +527,8 @@ Deadline is approaching and you have to deliver it! It's not ready!
 You do have an initial Blueprint and so we'll create our guitar like that!
 This is our guitar at the moment -> This guitar isn't ready!
 Take-away
-1. Although a very simple concept, it is important to notice that no abstractions may exist in instances.
-2. This is why, when we crate instances of anonymous classes, we are force to implement whatever is left from the abstraction.
+1.  Although a very simple concept, it is important to notice that no abstractions may exist in instances.
+2.  This is why, when we crate instances of anonymous classes, we are force to implement whatever is left from the abstraction.
 ========================================================================================================================
 --- 19. `String` `replace` old/new 
 ========================================================================================================================
@@ -550,10 +550,10 @@ This strange phenomenon happen because of this:
         return this;
     }
 Take-away
-1. String constants can be compared with the equals logical operator.
-2. The `replace` method, with string, always returns a new string, which invalidates the use of the logic operator.
-3. The `replace` method, with a char, returns a new string, if the chars are different, which not always invalidates the use of the logic operator.
-4. Replacing with the same character returns the same String.
+1.  String constants can be compared with the equals logical operator.
+2.  The `replace` method, with string, always returns a new string, which invalidates the use of the logic operator.
+3.  The `replace` method, with a char, returns a new string, if the chars are different, which not always invalidates the use of the logic operator.
+4.  Replacing with the same character returns the same String.
 ------------------------------------------------------------------------------------------------------------------------------------------------------
 🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
 ------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -569,24 +569,24 @@ Process finished with exit code
 
 ## References
 
-- [Type Erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)
+-   [Type Erasure](https://docs.oracle.com/javase/tutorial/java/generics/erasure.html)
 
 ---
 
-- [Animal Collective Lyrics FloriDada](https://www.azlyrics.com/lyrics/animalcollective/floridada.html)
-- [Animal Collective discography](https://en.wikipedia.org/wiki/Animal_Collective_discography)
-- [Animal Collective](https://en.wikipedia.org/wiki/Animal_Collective)
-- [Capital Cities - What's the password?](https://www.youtube.com/watch?v=w7JFSLu8OHI)
-- [Capital Cities (band)](https://en.wikipedia.org/wiki/Capital_Cities_(band))
-- [Hercules and Love Affair (album)](https://en.wikipedia.org/wiki/Hercules_and_Love_Affair_(album))
-- [Hercules and Love Affair Homepage](https://www.herculesandloveaffair.net/home/)
-- [VAMPIRE WEEKEND @ The Grammys](https://www.grammy.com/grammys/artists/vampire-weekend/10722)
-- [Vampire Weekend release new album ‘Father of the Bride’](https://www.sonymusic.co.uk/vampire-weekend-release-new-album-father-of-the-bride/)
-- [MGMT discography](https://en.wikipedia.org/wiki/MGMT_discography)
-- [Electric Feel](https://en.wikipedia.org/wiki/Electric_Feel)
-- [Kids (MGMT song)](https://en.wikipedia.org/wiki/Kids_(MGMT_song))
-- [Time to Pretend](https://en.wikipedia.org/wiki/Time_to_Pretend)
-- [MGMT and their Little Dark Age](https://www.youtube.com/watch?v=IMMlwjWyHxA)
+-   [Animal Collective Lyrics FloriDada](https://www.azlyrics.com/lyrics/animalcollective/floridada.html)
+-   [Animal Collective discography](https://en.wikipedia.org/wiki/Animal_Collective_discography)
+-   [Animal Collective](https://en.wikipedia.org/wiki/Animal_Collective)
+-   [Capital Cities - What's the password?](https://www.youtube.com/watch?v=w7JFSLu8OHI)
+-   [Capital Cities (band)](https://en.wikipedia.org/wiki/Capital_Cities_(band))
+-   [Hercules and Love Affair (album)](https://en.wikipedia.org/wiki/Hercules_and_Love_Affair_(album))
+-   [Hercules and Love Affair Homepage](https://www.herculesandloveaffair.net/home/)
+-   [VAMPIRE WEEKEND @ The Grammys](https://www.grammy.com/grammys/artists/vampire-weekend/10722)
+-   [Vampire Weekend release new album ‘Father of the Bride’](https://www.sonymusic.co.uk/vampire-weekend-release-new-album-father-of-the-bride/)
+-   [MGMT discography](https://en.wikipedia.org/wiki/MGMT_discography)
+-   [Electric Feel](https://en.wikipedia.org/wiki/Electric_Feel)
+-   [Kids (MGMT song)](https://en.wikipedia.org/wiki/Kids_(MGMT_song))
+-   [Time to Pretend](https://en.wikipedia.org/wiki/Time_to_Pretend)
+-   [MGMT and their Little Dark Age](https://www.youtube.com/watch?v=IMMlwjWyHxA)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=GJ78MJg3UdE">
@@ -691,18 +691,18 @@ Process finished with exit code
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

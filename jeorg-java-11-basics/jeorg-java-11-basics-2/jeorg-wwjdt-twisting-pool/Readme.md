@@ -26,8 +26,8 @@ Process finished with exit code 0
 
 ## References
 
-- [Dire Straits](https://en.wikipedia.org/wiki/Dire_Straits)
-- [Dire Straits - Twisting By The Pool](https://www.youtube.com/watch?v=DsJ5aYK-S6Y)
+-   [Dire Straits](https://en.wikipedia.org/wiki/Dire_Straits)
+-   [Dire Straits - Twisting By The Pool](https://www.youtube.com/watch?v=DsJ5aYK-S6Y)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=DsJ5aYK-S6Y">

@@ -19,7 +19,7 @@ Process finished with exit code 0
 
 ## References
 
-- [The Wanda Sykes Show](https://www.imdb.com/title/tt1441222/)
+-   [The Wanda Sykes Show](https://www.imdb.com/title/tt1441222/)
 
 <div align="center">
     <a href="https://www.youtube.com/watch?v=_y5LcDulGPE">

@@ -4,15 +4,15 @@
 
 In this fourth mastery exercise we'll look at a few important key aspects:
 
-1. Serializing `FileOutputStream` and `FileInputStream` -> [mastery-2-2-deserializer](../mastery-2-2-deserializer) and [mastery-2-2]()
-2. `compare` and `mismatch` in arrays
-3. TYPE_USE and TYPE_PARAMETER
-4. Switch valid numeric types and their limits
-5. Float value declaration
-6. Conflicting exports in modularization
-7. Multi interface inheritance
-8. `Function`'s and `ToFunction`'s
-9. `--add-exports` and `--add-reads` in modularization
+1.  Serializing `FileOutputStream` and `FileInputStream` -> [mastery-2-2-deserializer](../mastery-2-2-deserializer) and [mastery-2-2]()
+2.  `compare` and `mismatch` in arrays
+3.  TYPE_USE and TYPE_PARAMETER
+4.  Switch valid numeric types and their limits
+5.  Float value declaration
+6.  Conflicting exports in modularization
+7.  Multi interface inheritance
+8.  `Function`'s and `ToFunction`'s
+9.  `--add-exports` and `--add-reads` in modularization
 10. Security guidelines: [Read, Write, Memorize, Understand (R.W.M.U.)](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
 11. Project Jigsaw: [R.W.M.U](http://cr.openjdk.java.net/~mr/jigsaw/ea/module-summary.html)
 12. `AutoCloseable`close method and exception handling
@@ -27,14 +27,14 @@ In this fourth mastery exercise we'll look at a few important key aspects:
 
 ```text
 ================== Master Module mastery-2-2 ==================
-1. Serializing 'FileOutputStream' and 'FileInputStream'
+1.  Serializing 'FileOutputStream' and 'FileInputStream'
 ============
 ### Creating Apollo 13 Mission but missing a few details
 File has been created on this location -> /tmp/destination
 Data -> MissionData{mission='Apollo 13', destination='The Moon', origin='Earth'}
 Please run module mastery-2-2-deserializer to realize that default fields are read with Java default values and not the assigned ones,
 if they are not part of the serialized data
-2. 'compare' and 'mismatch' in arrays
+2.  'compare' and 'mismatch' in arrays
 ============
 ### We compare two arrays defining the crew and test mismatch and compare
 comparing [James A. Lovell,John L. Swigert, Jr.,Fred W. Haise, Jr.] with [Jim Lovell,Jack Swigert,Fred Haise] -> result is: -8
@@ -57,7 +57,7 @@ comparing [1,2,3,4,5,6,7,8,1] with [1,2,3,4,5,6,7,8,9] -> result is: -1
 mismatching [1,2,3,4,5,6,7,8,1] with [1,2,3,4,5,6,7,8,9] -> result is: 8
 comparing [1,2,3,4,5,6,7,8,11] with [1,2,3,4,5,6,7,8,9] -> result is: 1
 comparing [1,2,3] with [1,2,3,4,5,6,7,8,9] -> result is: -6
-3. TYPE_USE and TYPE_PARAMETER
+3.  TYPE_USE and TYPE_PARAMETER
 ============
 ### A TYPE_USE case
 @Rocket String rocket1 = "Saturn V";
@@ -66,7 +66,7 @@ Function<Integer, String> f = ( @Rocket Integer val ) -> Integer.toHexString(val
 ### A TYPE_PARAMETER case
 var missionModified = new MissionDataTyped<String>();
 ### Not that TYPE_PARAMETER is a part of TYPE_USE. If you have TYPE_USE, you don't need TYPE_PARAMETER
-4. Switch valid numeric types and their limits
+4.  Switch valid numeric types and their limits
 ============
 ### Permitted Values
 ### short
@@ -87,7 +87,7 @@ false <= bool <= true
 1.4E-45 <= float <= 3.4028235E38
 ### double
 4.9E-324 <= double <= 1.7976931348623157E308
-5. Float value declaration
+5.  Float value declaration
 ============
 ### We try to assign an absolute number
 1000.0
@@ -95,10 +95,10 @@ false <= bool <= true
 100.12345
 ### With a double, we do not need to cast
 100.45677
-6. Conflicting exports in modularization
+6.  Conflicting exports in modularization
 ============
 ### Check the module definitions of this module
-7. Multi interface inheritance
+7.  Multi interface inheritance
 ============
 ### Check the two interfaces. There is a subclass which overrides the superclass method. This is Ok
 public interface BriefingTrajectory {
@@ -112,7 +112,7 @@ public interface MissionBriefingControl extends BriefingDate, BriefingTrajectory
     LocalDateTime getBriefingDate();
     String getOriginLocation();
 }
-8. 'Function''s and 'ToFunction''s
+8.  'Function''s and 'ToFunction''s
 ============
 ### A ToDoubleFunction uses an Object parameter, but always returns a primitve
 ### The name is self-exlanatory. To<>Function's always return a primitive type
@@ -122,7 +122,7 @@ public interface MissionBriefingControl extends BriefingDate, BriefingTrajectory
 ### The name is self-exlanatory. <>Function's always receive a primitive type
 SATCAT
 null
-9. '--add-exports' and '--add-reads' in modularization
+9.  '--add-exports' and '--add-reads' in modularization
 ============
 ### Check module mastery-2-2-modularity for an example in action
 10. Security guidelines
@@ -159,10 +159,10 @@ These are the files with find: [/tmp/rocket-info.txt]
 These are the files with walk: [/tmp/rocket-info.txt]
 14. Reading sub-paths 'Path.subpath'
 ============
-### A few things to remember:
-### 1. The root is never element 0
-### 2. First index is inclusive, last index is exclusive (just like almost every index in Java
-### 3. Individual paths do not start or end with path separator
+### A few things to remember
+### 1.  The root is never element 0
+### 2.  First index is inclusive, last index is exclusive (just like almost every index in Java
+### 3.  Individual paths do not start or end with path separator
 A subpath 0 to 1 of /tmp/controller/lunar is tmp
 A subpath 0 to 2 of /tmp/controller/lunar is tmp/controller
 Path 0 of /tmp/controller/lunar is tmp
@@ -232,12 +232,12 @@ Process finished with exit code 0
 
 ## References
 
-- [Apollo 13 (film)](https://nl.wikipedia.org/wiki/Apollo_13_(film))
-- [Apollo_13](https://en.wikipedia.org/wiki/Apollo_13)
-- [Commons:Licensing](https://commons.wikimedia.org/wiki/Commons:Licensing)
-- [Creative Commons](https://creativecommons.org/)
-- [Five Command Line Options To Hack The Java Module System](https://nipafx.dev/five-command-line-options-hack-java-module-system)
-- [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
+-   [Apollo 13 (film)](https://nl.wikipedia.org/wiki/Apollo_13_(film))
+-   [Apollo_13](https://en.wikipedia.org/wiki/Apollo_13)
+-   [Commons:Licensing](https://commons.wikimedia.org/wiki/Commons:Licensing)
+-   [Creative Commons](https://creativecommons.org/)
+-   [Five Command Line Options To Hack The Java Module System](https://nipafx.dev/five-command-line-options-hack-java-module-system)
+-   [Secure Coding Guidelines for Java SE](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=MdvoA-sjs0A">

@@ -13,15 +13,15 @@ folder at this point.
 
 ## Exercise
 
-1. Serialization and polymorphism
-2. Multi-dimensional arrays and ways to create them
-3. Sorting Immutable `List`'s
-4. Static method inheritance and overriding
-5. `final` in `try` with resources
-6. `Deque` and `offerLast`, and other methods.
-7. Base modules and the rest -> [mastery-3-2-modularity](../mastery-3-2-modularity/Readme.md)
-8. A case for `final` `var` in a `for` loop
-9. `RandomAccessFile` and `writeUTF`
+1.  Serialization and polymorphism
+2.  Multi-dimensional arrays and ways to create them
+3.  Sorting Immutable `List`'s
+4.  Static method inheritance and overriding
+5.  `final` in `try` with resources
+6.  `Deque` and `offerLast`, and other methods.
+7.  Base modules and the rest -> [mastery-3-2-modularity](../mastery-3-2-modularity/Readme.md)
+8.  A case for `final` `var` in a `for` loop
+9.  `RandomAccessFile` and `writeUTF`
 10. local `DateFormat` and `Locale`
 11. Package protected constructors (two classes of different packages)
 12. `ExceptionInInitializerError`
@@ -38,7 +38,7 @@ folder at this point.
 
 ```text
 ================== Master Module mastery-3-2 ==================
---- 1. Serialization and polymorphism
+--- 1.  Serialization and polymorphism
 ============
 Case: We are taking info from the "Mercado de Olhão"
 When try to get the information from the registration website,
@@ -64,7 +64,7 @@ The takeout here, is that the non-serializable class, does not participate in th
 Although its constructor is called, no instance members are set.
 The compiler needs the empty constructors only to know that the runtime can build these instances without parameters.
 The constructors themselves are not called in the serializable instances.
---- 2. Multi-dimensional arrays and ways to create them
+--- 2.  Multi-dimensional arrays and ways to create them
 ============
 Case: We are staying at a 5 star hotel in Olhão
 The hotel serves us a 2X2 portion of cooked oysters plate.
@@ -83,13 +83,13 @@ final String cookedOysters5 [][] = {{"CookedOyster", "CookedOyster"}, {"CookedOy
 final String [][] rawOysters = new String[2][2];
 final String [] mussels [] = new String[2][];
 Big takeouts here for something seemingly simple:
-1. All arrays must have at least one dimension
-2. The first dimension MUST have a defined size upon initialization
-3. var needs to know its type. Therefore an array declared with var can only be created with new
-4. Different positions of a multidimensional array may have different array sizes in sub-dimensions
-6. The rectangular brackets my follow a C++ or a Java notation. In other workds, brackets can be declared just before or just after the variable name 
+1.  All arrays must have at least one dimension
+2.  The first dimension MUST have a defined size upon initialization
+3.  var needs to know its type. Therefore an array declared with var can only be created with new
+4.  Different positions of a multidimensional array may have different array sizes in sub-dimensions
+6.  The rectangular brackets my follow a C++ or a Java notation. In other workds, brackets can be declared just before or just after the variable name 
 with no particular restrictions on how many in the left or the right side
---- 3. Sorting Immutable `List`'s
+--- 3.  Sorting Immutable `List`'s
 ============
 Case: We finally got the listings of the "Festival do Marisco 2019"
 We want to keep these listings safe, will anyone be able to change them?
@@ -109,7 +109,7 @@ new ArrayList<>(allArtists).sort(Artist::compare); -> This is probably the only 
 We just create a new ArrayList from the immutable list in order to get a mutable list.
 Immutability principles are very common and traverse the whole JDK.
 When working with collections it is important to understand when to we get immutables and when do we get mutables
---- 4. Static method inheritance and overriding
+--- 4.  Static method inheritance and overriding
 ============
 Case: We have a stroll around the market and finally we come across some displays
 There we can see how Space's are built across the city.
@@ -130,11 +130,11 @@ A Construction has mainMaterial
 A Construction has mainMaterial
 A Construction has mainMaterial
 Important takes from this exercise:
-1. static methods are not really overriden. They are however shadowed by another
-2. by upcasting, we can call other static  methods
-3. Instance methods can be overriden
-4. Upcasting will only call the resulting instance method
---- 5. `final` in `try` with resources
+1.  static methods are not really overriden. They are however shadowed by another
+2.  by upcasting, we can call other static  methods
+3.  Instance methods can be overriden
+4.  Upcasting will only call the resulting instance method
+--- 5.  `final` in `try` with resources
 ============
 Case: We wanted to cook codfish (Bacalhau).
 But we made a mistake when creating the input stream!
@@ -150,7 +150,7 @@ to).
 Dependendo do tamanho das castanhas, vão assar no forno entre 35 a 45 minutos.
 Deixe tostar a gosto e sirva ainda quentinhas.
 A try clause always creates implicitly final variables
---- 6. `Deque` and `offerLast`, and other methods.
+--- 6.  `Deque` and `offerLast`, and other methods.
 ============
 Case: There is a list of clients waiting and the fish seller is registering everything
 As we ask for the fish request, it goes to a Deque in order to be processed
@@ -172,7 +172,7 @@ It's a circular collection and there are lots of implementations.
 ArrayDeque -> Not Thread-Safe and automatically expands
 LinkedBlockingDeque -> Thread-Safe and fixed capacity
 Only on fixed capacity Deque's can we explore the full capacity of offer functions
---- 7. Base modules and the rest
+--- 7.  Base modules and the rest
 ============
 Expected output:
 Cataplana dish is being served...
@@ -186,7 +186,7 @@ cataplana.jar -> java.base
    org.jesperancinha.java11.mastery3dot2               -> java.lang                                          java.base
    org.jesperancinha.java11.mastery3dot2               -> org.jesperancinha.console.consolerizer             cataplana.jar
 Please check module mastery-3-2-modularity for more info...
---- 8. A case for `final` `var` in a `for` loop
+--- 8.  A case for `final` `var` in a `for` loop
 ============
 Case: Let's get some veggies.
 We'll go to the supermarket and get some final vegetables.
@@ -206,7 +206,7 @@ Vars are effectively final until they suffer some change.
 A final before, makes that change impossible.
 final, as a parameter, will not work becaue var isn't supposed to be used as a parameter type
 Simple reason that we must remember. var needs to know its types. As a parameter, there is no way it can know that.
---- 9. `RandomAccessFile` and `writeUTF`
+--- 9.  `RandomAccessFile` and `writeUTF`
 ============
 Case: We want to cook "Bacalhau à Brás"
 We went to the market and bought some pieces of raw, dried and salted cod fish
@@ -214,9 +214,9 @@ The rest of the ingredients are at home
 We get home and read our recipe again:
 from: https://salinto.nl/blog/bacalhau-a-bras-recept/
 De avond van te voren leg je 250 gram gedroogde kabeljauw in een bak met melk of water. De volgende dag ververs je het water of de melk nog een keer o
-f 3. Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
+f 3.  Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
 De avond van te voren leg je 250 gram gedroogde kabeljauw in een bak met melk of water. De volgende dag ververs je het water of de melk nog een keer o
-f 3. Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
+f 3.  Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
 I'm corrupting the recipe
 eine stukjes evenals 5 teentjes knoflook. Dit mogen er ook 4 zijn, maar niet minder
 Je snijdt eveneens 500 gram aardappelen in flinterdunne stukjes/patatjes.
@@ -228,7 +228,7 @@ Vul een ovenschaal met de Bacalhau à Brás en plaats deze nog 10 minuten in een
 Je haalt de schaal uit de oven en je garneert de ovenschaal met het restant peterselie en de olijven.
 Wait! I forgot something!
 De avond van te voren leg je 250 gram gedroogde kabeljauw in een bak met melk of water. De volgende dag ververs je het water of de melk nog een keer o
-f 3. Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
+f 3.  Goed laten uitlekken voordat je deze waanzinnig lekkere maaltijd gaat bereiden.
 I'm corrupting the recipe
 eine stukjes evenals 5 teentjes knoflook. Dit mogen er ook 4 zijn, maar niet minder
 Je snijdt eveneens 500 gram aardappelen in flinterdunne stukjes/patatjes.
@@ -313,11 +313,11 @@ The same when calling the fishing factory method -> java.lang.RuntimeException
 	org.jesperancinha.java11.mastery3dot2.Mastery3dot2Runner.exercise12(Mastery3dot2Runner.java:351)
 	org.jesperancinha.java11.mastery3dot2.Mastery3dot2Runner.main(Mastery3dot2Runner.java:70)
 Take-aways:
-1. Static initialization can fail, but don't stop a program from running.
-2. SI fail results in and initialization failure.
-3. SI failure results in the absence of a class definition.
-4. Instance initialization failure does not present any unusual behaviour.
-5. We can try/catch any throwable that compatible with the originating throwable.
+1.  Static initialization can fail, but don't stop a program from running.
+2.  SI fail results in and initialization failure.
+3.  SI failure results in the absence of a class definition.
+4.  Instance initialization failure does not present any unusual behaviour.
+5.  We can try/catch any throwable that compatible with the originating throwable.
 --- 13. `thenComparing`
 ============
 Case: We receive a whole lot of fish by DocaPesca
@@ -347,8 +347,8 @@ commonName='Dourada', size=13.0, uuid=fd895514-86ff-4f3d-88be-4d9bf86e3982, crat
 dabb26c-aa06-49b9-a465-d0ee88292578, crateSize=TYPE3}, Peixe{commonName='Sardinha', size=17.0, uuid=9ad6462c-b778-4226-97e7-0b633abe168e, crateSize=TY
 PE2}, Peixe{commonName='Xarroco', size=23.0, uuid=12e6490e-0d1f-4b0c-9de0-bcfd54e0fd2c, crateSize=TYPE3}]
 Take-aways
-1. thenCompare works cumulatively
-2. thenCompare sections each comparison in separate groups
+1.  thenCompare works cumulatively
+2.  thenCompare sections each comparison in separate groups
 --- 14. `Consumer` in `for` loops
 ============
 Case: A bunch of cats is eating left over fish from the fishermen
@@ -363,10 +363,10 @@ Var Cat eats Peixe{commonName='Carapau', size=21.0, uuid=ad66bc30-6d45-4058-935a
 Var Cat eats Peixe{commonName='Bacalhau', size=10.0, uuid=ada6213d-8eb6-4173-85a6-748b1c3975bb, crateSize=null}
 Var Cat eats Peixe{commonName='Peixe Espada', size=0.0, uuid=a0b2855c-a150-4a25-b52c-6d5cafbfba45, crateSize=null}
 Take-aways
-1. For loops use consumers
-2. Consumer receive parameters and consume them. No value is returned
-3. var declared consumers need to specify type (of course)
-4. traditionally declared consumers can use diamond notation and lambdas
+1.  For loops use consumers
+2.  Consumer receive parameters and consume them. No value is returned
+3.  var declared consumers need to specify type (of course)
+4.  traditionally declared consumers can use diamond notation and lambdas
 --- 15. `sorted`, `Comparable` and `ClassCastException`
 ============
 Case: During the sorting of the fish bait, one fisher dropped some real fishes
@@ -393,10 +393,10 @@ The fisher has to wash all of their baits -> java.lang.ClassCastException
 	org.jesperancinha.java11.mastery3dot2.Mastery3dot2Runner.exercise15(Mastery3dot2Runner.java:244)
 	org.jesperancinha.java11.mastery3dot2.Mastery3dot2Runner.main(Mastery3dot2Runner.java:73)
 Take-aways
-1. We can provide a comparator to the sorted intermediate operation of sorted
-2. Alternatively we can use Comparable in the type definition itself
-3. All objects need to be Comparable, if we want sorted without parameters to work
-4. During a sorted operation, without parameters, there will be a ClassClassException thrown, if at least one element is not Comparable
+1.  We can provide a comparator to the sorted intermediate operation of sorted
+2.  Alternatively we can use Comparable in the type definition itself
+3.  All objects need to be Comparable, if we want sorted without parameters to work
+4.  During a sorted operation, without parameters, there will be a ClassClassException thrown, if at least one element is not Comparable
 --- 16. Serializing arrays and Lists
 ============
 Case: Sometimes we register a fish catch in a List.
@@ -412,12 +412,12 @@ eixe{commonName='Robalo', size=23.0, uuid=b0036baa-9705-484d-8a71-0058589da2d7, 
 68d54004-8430-48e9-80f0-20e8bc910c39, crateSize=null}, Peixe{commonName='Robalo', size=23.0, uuid=b0036baa-9705-484d-8a71-0058589da2d7, crateSize=null
 }], peixesHidden=null, peixeArrayHidden=null}
 Take-aways
-1. We don't need a serialVersionUID. It can work without it
-2. However not strictly necessary, a serialVersionUID identifies the version of the object
-3. All serialized objects need to be serializable
-4. This also includes all elements of the array or of a list
-5. The `transient` keyword makes sure that elements aren't going to be serializable.
-6. This would happen for non serializable members with no transient -> java.io.NotSerializableException
+1.  We don't need a serialVersionUID. It can work without it
+2.  However not strictly necessary, a serialVersionUID identifies the version of the object
+3.  All serialized objects need to be serializable
+4.  This also includes all elements of the array or of a list
+5.  The `transient` keyword makes sure that elements aren't going to be serializable.
+6.  This would happen for non serializable members with no transient -> java.io.NotSerializableException
 	org.jesperancinha.java11.mastery3dot2.pesca.Isca
 	java.base/java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1185)
 	java.base/java.io.ObjectOutputStream.writeArray(ObjectOutputStream.java:1379)
@@ -439,7 +439,7 @@ So none of them matched right? -> true
 How about the `Little Bittern`? -> true
 Do all of them match this? -> false
 Take-aways
-1. allMatch, noneMatch, anyMatch and in general Match operations, return a boolean
+1.  allMatch, noneMatch, anyMatch and in general Match operations, return a boolean
 --- 18. `StringBuilder` and `setLength`
 ============
 Case: During a bird-watch, we see a species called: `Slender-billed Gull`
@@ -451,8 +451,8 @@ But hey, now we can put way more characters and now we reinstate the rest -> Sle
 And we can also make this a bigger string -> Slender-billed Gull 
 If the size is changed to more than what already is, the actual word doesn't change size -> Slender-billed Gull.
 Take-aways
-1. setLength can decrease a String size inside StrinbBuilder
-2. setLength can may increase the size of the String, but nothing happens if it surpasses original size
+1.  setLength can decrease a String size inside StrinbBuilder
+2.  setLength can may increase the size of the String, but nothing happens if it surpasses original size
 --- 19. `Supplier` and `get`
 ============
 Case: We are going to visit the worldwide known "Chalé Dr. João Lúcio"
@@ -464,9 +464,9 @@ CK - This is your ticket Ticket{tickerNumber=fe85570b-cb98-4c22-b2e5-e2fb3e84254
 CK - And this is a copy! Enjoy your visit! Ticket{tickerNumber=7b1687d1-b224-4c68-824c-964038b72256, name='Copy'}
 CL - Thank you so much!
 Take-away
-1. Suppliers return a value without the need of parameters
-2. var isn't very convenient to use also with Suppliers because of the code
-3. var also works though
+1.  Suppliers return a value without the need of parameters
+2.  var isn't very convenient to use also with Suppliers because of the code
+3.  var also works though
 --- 20. `Files.copy` and symbolic links
 ============
 Case: We'll create symbolic links to files we create.
@@ -475,8 +475,8 @@ Check your file system and look at the results. Change the files via the command
 Notice that chaging /tmp/fishers-world.txt will also affect the contents of /tmp/fishers-link.txt.
 Also notice that /tmp/fishers-link2.txt is a text file
 Take-away
-1. A copy of a symlink results in the copy of the file it is linked to.
-2. The symlink itself does not get copied.
+1.  A copy of a symlink results in the copy of the file it is linked to.
+2.  The symlink itself does not get copied.
 🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄🦄
 Hope you enjoyed this mastery into Java 11 with the flavour, sounds, beauty and lights of Olhão City!
 Please keep coming back as I'll be creating more mastery modules.
@@ -486,27 +486,27 @@ Thank you!
 
 ## References
 
-- [Bird watching in Ria Formosa - Quinta de Marim - Olhão](http://birdwatching.spea.pt/en/where-to-watch/ria-formosa/)
-- [DocaPesca - Olhão](http://www.docapesca.pt/pt/rede-lotas-e-postos-vendagem/item/olhao.html)
-- [Caranguejo - Wikipedia - PT](https://pt.wikipedia.org/wiki/Caranguejo)
-- [Razor Clam](https://en.wikipedia.org/wiki/Razor_clam)
-- [Solen marginatus](https://pt.wikipedia.org/wiki/Solen_marginatus)
-- [Lingueirão à bulhão pato](https://pt.petitchef.com/receitas/entrada/lingueirao-a-bulhao-pato-fid-1547851)
-- [Split a string to equal length substrings in Java](https://www.techiedelight.com/split-string-to-equal-length-substrings-java/)
-- [Garoto (café)](https://pt.wikipedia.org/wiki/Garoto_(caf%C3%A9))
-- [Galão (café)](https://pt.wikipedia.org/wiki/Gal%C3%A3o_(caf%C3%A9))
-- [Koffiecultuur in Portugal](https://zininportugal.com/2015/05/17/koffie-wordt-het-een-bica-meia-de-leite-direita-americano-abatanado-galao-of-garoto/)
-- [Olhão](https://pt.wikipedia.org/wiki/Olh%C3%A3o)
-- [BACALHAU À BRÁS RECEPT](https://salinto.nl/blog/bacalhau-a-bras-recept/)
-- [Saudades de Portugal - Recept Bacalhau à Brás](https://saudadesdeportugal.nl/bacalhau-a-bras/)
-- [Difference between the File and RandomAccessFile classes](https://www.careerride.com/Java-file-vs-RandomAccessFile-classes.aspx#:~:text=%2D%20The%20File%20class%20encapsulates%20the,%2D%20The%20java.&text=%2D%20Unlike%20the%20input%20and%20output,inherit%20from%20InputStream%20or%20OutputStream.)
-- [Castanhas assadas no forno - SAPO - Lifestyle](https://lifestyle.sapo.pt/sabores/receitas/castanhas-assadas-no-forno)
-- [Castanhas assadas e Feira de São Martinho prometem atrair milhares a Portimão](https://postal.pt/economia/2019-10-31-Castanhas-assadas-e-Feira-de-Sao-Martinho-prometem-atrair-milhares-a-Portimao)
-- [Festival do Marisco 2019](http://www.festivaldomarisco.com/artistas)
-- [Portugese ‘ontdekking’ in onze keuken: chuchu](https://campersmuikjegaatlos.nl/portugese-ontdekking-in-onze-keuken-chuchu/)
-- [Mercados De Olhão, E.E.M](https://www.visitalgarve.pt/pt/7353/mercados-de-olhao-eem.aspx)
-- [Mercado de Olhao](https://www.tripadvisor.nl/Attraction_Review-g312714-d3923506-Reviews-Mercado_de_Olhao-Olhao_Faro_District_Algarve.html)
-- [MUNICÍPIO - Espaços Municipais - Mercados Municipais - Olhão](http://www.cm-olhao.pt/pt/municipio/espacos-municipais/mercados-municipais)
+-   [Bird watching in Ria Formosa - Quinta de Marim - Olhão](http://birdwatching.spea.pt/en/where-to-watch/ria-formosa/)
+-   [DocaPesca - Olhão](http://www.docapesca.pt/pt/rede-lotas-e-postos-vendagem/item/olhao.html)
+-   [Caranguejo - Wikipedia - PT](https://pt.wikipedia.org/wiki/Caranguejo)
+-   [Razor Clam](https://en.wikipedia.org/wiki/Razor_clam)
+-   [Solen marginatus](https://pt.wikipedia.org/wiki/Solen_marginatus)
+-   [Lingueirão à bulhão pato](https://pt.petitchef.com/receitas/entrada/lingueirao-a-bulhao-pato-fid-1547851)
+-   [Split a string to equal length substrings in Java](https://www.techiedelight.com/split-string-to-equal-length-substrings-java/)
+-   [Garoto (café)](https://pt.wikipedia.org/wiki/Garoto_(caf%C3%A9))
+-   [Galão (café)](https://pt.wikipedia.org/wiki/Gal%C3%A3o_(caf%C3%A9))
+-   [Koffiecultuur in Portugal](https://zininportugal.com/2015/05/17/koffie-wordt-het-een-bica-meia-de-leite-direita-americano-abatanado-galao-of-garoto/)
+-   [Olhão](https://pt.wikipedia.org/wiki/Olh%C3%A3o)
+-   [BACALHAU À BRÁS RECEPT](https://salinto.nl/blog/bacalhau-a-bras-recept/)
+-   [Saudades de Portugal - Recept Bacalhau à Brás](https://saudadesdeportugal.nl/bacalhau-a-bras/)
+-   [Difference between the File and RandomAccessFile classes](https://www.careerride.com/Java-file-vs-RandomAccessFile-classes.aspx#:~:text=%2D%20The%20File%20class%20encapsulates%20the,%2D%20The%20java.&text=%2D%20Unlike%20the%20input%20and%20output,inherit%20from%20InputStream%20or%20OutputStream.)
+-   [Castanhas assadas no forno - SAPO - Lifestyle](https://lifestyle.sapo.pt/sabores/receitas/castanhas-assadas-no-forno)
+-   [Castanhas assadas e Feira de São Martinho prometem atrair milhares a Portimão](https://postal.pt/economia/2019-10-31-Castanhas-assadas-e-Feira-de-Sao-Martinho-prometem-atrair-milhares-a-Portimao)
+-   [Festival do Marisco 2019](http://www.festivaldomarisco.com/artistas)
+-   [Portugese ‘ontdekking’ in onze keuken: chuchu](https://campersmuikjegaatlos.nl/portugese-ontdekking-in-onze-keuken-chuchu/)
+-   [Mercados De Olhão, E.E.M](https://www.visitalgarve.pt/pt/7353/mercados-de-olhao-eem.aspx)
+-   [Mercado de Olhao](https://www.tripadvisor.nl/Attraction_Review-g312714-d3923506-Reviews-Mercado_de_Olhao-Olhao_Faro_District_Algarve.html)
+-   [MUNICÍPIO - Espaços Municipais - Mercados Municipais - Olhão](http://www.cm-olhao.pt/pt/municipio/espacos-municipais/mercados-municipais)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=sfAE1ojKrPw">
@@ -606,18 +606,18 @@ Thank you!
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

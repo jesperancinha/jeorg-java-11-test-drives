@@ -2,7 +2,7 @@
 
 This is an experimental project which intends to evaluate different design patterns in java 8 by providing different examples
 
-## References:
+## References
 
 * http://www.tutorialspoint.com/design_pattern
 

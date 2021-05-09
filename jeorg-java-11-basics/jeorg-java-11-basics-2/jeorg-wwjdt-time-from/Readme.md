@@ -6,9 +6,9 @@ Do you remember Earth Angel from Back to the Future I? This exercise will focus 
 
 The old and the new:
 
-1. java.util.*
-2. java.sql.*
-3. java.time.*
+1.  java.util.*
+2.  java.sql.*
+3.  java.time.*
 
 ## Output
 
@@ -40,8 +40,8 @@ Process finished with exit code 0
 
 ## References
 
-- [Back to the Future I - Timeline](http://www.themovietimeline.com/film106)
-- [DateTimeFormatter](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html)
+-   [Back to the Future I - Timeline](http://www.themovietimeline.com/film106)
+-   [DateTimeFormatter](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=T_WSXXPQYeY">

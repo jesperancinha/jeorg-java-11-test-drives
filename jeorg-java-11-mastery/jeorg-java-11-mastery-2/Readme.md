@@ -4,10 +4,10 @@
 
 Mastery 2
 
-- [Mastery Module 2.1.](jeorg-mastery-2-1) - Peter and the Wolf
-- [Mastery Module 2.2.](jeorg-mastery-2-2) - Apollo 13
-- [Mastery Module 2.2. - Modularity](jeorg-mastery-2-2-modularity) - Apollo 13 (Modularity)
-- [Mastery Module 2.2. - Deserializer](jeorg-mastery-2-2-deserializer) - Apollo 13 (Deserializer)
+-   [Mastery Module 2.1.](jeorg-mastery-2-1) - Peter and the Wolf
+-   [Mastery Module 2.2.](jeorg-mastery-2-2) - Apollo 13
+-   [Mastery Module 2.2. - Modularity](jeorg-mastery-2-2-modularity) - Apollo 13 (Modularity)
+-   [Mastery Module 2.2. - Deserializer](jeorg-mastery-2-2-deserializer) - Apollo 13 (Deserializer)
 
 ---
 
@@ -15,18 +15,18 @@ Mastery 2
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

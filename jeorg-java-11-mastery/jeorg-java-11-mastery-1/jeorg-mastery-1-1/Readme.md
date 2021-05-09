@@ -4,15 +4,15 @@
 
 In this first mastery exercise we'll look at a few important key aspects:
 
-1. What are top-level classes
-2. Anonymous classes
-3. Package member classes
-4. Static classes
-5. Array growth
-6. Array length
-7. Array cloning
-8. String immutability
-9. String assignment
+1.  What are top-level classes
+2.  Anonymous classes
+3.  Package member classes
+4.  Static classes
+5.  Array growth
+6.  Array length
+7.  Array cloning
+8.  String immutability
+9.  String assignment
 10. Interface static members
 11. Defaults in interfaces
 12. Defaults in classes
@@ -34,7 +34,7 @@ A clone would be Fred Flinstone, Wilma Flinstone, Pebbles Flinstone, Dino, Baby 
 The Rubbles [Barney Rubble, Betty Rubble, Bamm-Bamm Rubble, Hoppy]
 Size is 4
 The Gruesomes [Schneider, Schneider, Occy, Uncle Ghastly, Goblin "Gobby" Gruesome, Creepella Gruesome, Weirdly Gruesome ]
-Size is 7. The difference is that up until 10 elements, no resizing will occur 
+Size is 7.  The difference is that up until 10 elements, no resizing will occur 
 This is Fred Flinstone
 This is Wilma Flinstone
 Yabadabadoo!!
@@ -102,7 +102,7 @@ Process finished with exit code 0
 
 ## References
 
-- [The Flinstones](https://en.wikipedia.org/wiki/The_Flintstones)
+-   [The Flinstones](https://en.wikipedia.org/wiki/The_Flintstones)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=cBco_DApZVY">

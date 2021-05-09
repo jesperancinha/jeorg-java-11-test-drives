@@ -33,20 +33,20 @@ Format: zzzzz HHHHHH SSSSSSSS DDDDDDDD MMMMMMMMMM
 Result: Central European Standard Time 000000 00000000 00000076 March
 --- // ---
 --- We now find more interesting dates---
-1. MacGruber was probably born more exactly on the day 76 of year 1963 on month March(03) which the day was 17 on a Sunday around 10:15:30.999, CET
-2. Casey Janine Fitzpatrick was probably born more exactly on the April and that was month 4 of year 1963 and it was day 24 of that month, which was also day 114 of that year and so the birth time was at 10 and 15 minutes with the chronometers marking 30 seconds and 999 milliseconds, CET.
-3. Casey Janine Fitzpatrick died on (notice the daylight savings change): 1999-07-04 at 11:15:30.000999 CEST
-4. MacGruber gets his passport): issued on the: 20010526111530999 Central European Summer Time
+1.  MacGruber was probably born more exactly on the day 76 of year 1963 on month March(03) which the day was 17 on a Sunday around 10:15:30.999, CET
+2.  Casey Janine Fitzpatrick was probably born more exactly on the April and that was month 4 of year 1963 and it was day 24 of that month, which was also day 114 of that year and so the birth time was at 10 and 15 minutes with the chronometers marking 30 seconds and 999 milliseconds, CET.
+3.  Casey Janine Fitzpatrick died on (notice the daylight savings change): 1999-07-04 at 11:15:30.000999 CEST
+4.  MacGruber gets his passport): issued on the: 20010526111530999 Central European Summer Time
 
 Process finished with exit code 0
 ```
 
 ## References
 
-- [The Movie Timeline - MacGruber](http://www.themovietimeline.com/film8353)
-- [SimpleDateFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
-- [DateTimeFormatter](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html)
-- [Making life saving inventions out of household materials](https://www.youtube.com/watch?v=jsWs5Kd-qD8)
+-   [The Movie Timeline - MacGruber](http://www.themovietimeline.com/film8353)
+-   [SimpleDateFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/text/SimpleDateFormat.html)
+-   [DateTimeFormatter](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/time/format/DateTimeFormatter.html)
+-   [Making life saving inventions out of household materials](https://www.youtube.com/watch?v=jsWs5Kd-qD8)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=xQHHHBkigDY">

@@ -7,8 +7,8 @@ band [R.E.M.](https://en.wikipedia.org/wiki/R.E.M.).
 
 ## References
 
-- [R.E.M. Discography](https://en.wikipedia.org/wiki/R.E.M._discography)
-- [R.E.M.](https://en.wikipedia.org/wiki/R.E.M.)
+-   [R.E.M. Discography](https://en.wikipedia.org/wiki/R.E.M._discography)
+-   [R.E.M.](https://en.wikipedia.org/wiki/R.E.M.)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=AVck4B1429M">

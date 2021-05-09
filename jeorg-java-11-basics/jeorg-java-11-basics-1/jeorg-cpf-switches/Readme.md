@@ -15,7 +15,7 @@ Process finished with exit code 0
 
 ## References
 
-- [Mabinogion](https://en.wikipedia.org/wiki/Mabinogion)
+-   [Mabinogion](https://en.wikipedia.org/wiki/Mabinogion)
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

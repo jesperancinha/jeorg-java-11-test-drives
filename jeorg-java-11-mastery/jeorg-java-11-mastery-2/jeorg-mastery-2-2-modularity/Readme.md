@@ -2,7 +2,7 @@
 
 ## How to run
 
-- Forcing requires and exports (--add-reads and --add-exports respectively)
+-   Forcing requires and exports (--add-reads and --add-exports respectively)
 
 ```bash
 cd ocp11/java-11-mastery-2/mastery-2-2-modularity/
@@ -10,7 +10,7 @@ javac -encoding UTF-8 --module-source-path ../../../jtd-the-factory/consolerizer
 java --add-reads rocket=consolerizer --add-exports lunar.module/org.jesperancinha.java11.lunar.extra=rocket --module-path out --module rocket/org.jesperancinha.java11.rocket.RocketRunner rocket=lunar.module --module-path out --module rocket/org.jesperancinha.java11.rocket.RocketRunner
 ```
 
-- Forcing exports, with all uncommented modules in [rocket](rocket/rocket/module-info.java).
+-   Forcing exports, with all uncommented modules in [rocket](rocket/rocket/module-info.java).
 
 ```bash
 cd ocp11/java-11-mastery-2/mastery-2-2-modularity/
@@ -18,7 +18,7 @@ javac -encoding UTF-8 --module-source-path ../../../jtd-the-factory/consolerizer
 java --add-exports lunar.module/org.jesperancinha.java11.lunar.extra=rocket --module-path out --module rocket/org.jesperancinha.java11.rocket.RocketRunner
 ```
 
-- The typical compilation with all uncommented modules in [lunar.module](lunar.module/lunar.module/module-info.java) and in [rocket](rocket/rocket/module-info.java).
+-   The typical compilation with all uncommented modules in [lunar.module](lunar.module/lunar.module/module-info.java) and in [rocket](rocket/rocket/module-info.java).
 
 ```bash
 cd ocp11/java-11-mastery-2/mastery-2-2-modularity/

@@ -18,7 +18,7 @@ We will check this with our exercise.
 
 ## References
 
-- [La Casa Azul Discography](https://en.wikipedia.org/wiki/La_Casa_Azul)
+-   [La Casa Azul Discography](https://en.wikipedia.org/wiki/La_Casa_Azul)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=WdvKgZVgWWg">

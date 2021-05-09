@@ -4,10 +4,10 @@
 
 Let's check polymorphism, inheritance and most important scopes. From more restrictive to less restrictive:
 
-1. private
-2. default or package
-3. protected
-4. public
+1.  private
+2.  default or package
+3.  protected
+4.  public
 
 ## Output
 

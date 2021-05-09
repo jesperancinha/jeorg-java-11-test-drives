@@ -8,7 +8,7 @@ This module is the deserializer module with an upgraded class in the same packag
 
 ```bash
 ================== Master Module mastery-2-2-deserializer ==================
-1. Serializing `FileOutputStream` and `FileInputStream`
+1.  Serializing `FileOutputStream` and `FileInputStream`
 ============
 ### Creating Apollo 13 Mission but missing a few details
 File has been read from this location -> /tmp/destination

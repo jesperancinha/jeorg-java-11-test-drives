@@ -14,15 +14,15 @@ folder at this point.
 
 ## Exercise
 
-1. `Integer` Mathematical Bases `parseInt`
-2. Labels and `break` in loops
-3. `Files.newDirectoryStream` Listings and the `glob` pattern
-4. `@Override` in `equals`
-5. How `null` is interpreted in overloading
-6. How `getRoot()` exhibits the root `Path`
-7. Type of elements in a diamond notation declared `ArrayList` assigned to `var`
-8. Initialization of invisible `primitive` members
-9. Declaring a `String` array.
+1.  `Integer` Mathematical Bases `parseInt`
+2.  Labels and `break` in loops
+3.  `Files.newDirectoryStream` Listings and the `glob` pattern
+4.  `@Override` in `equals`
+5.  How `null` is interpreted in overloading
+6.  How `getRoot()` exhibits the root `Path`
+7.  Type of elements in a diamond notation declared `ArrayList` assigned to `var`
+8.  Initialization of invisible `primitive` members
+9.  Declaring a `String` array.
 10. Passing variables by value and not returning in `Stream`
 11. Thread safe `Object` s
 12. `Stream` count types
@@ -35,7 +35,7 @@ folder at this point.
 
 ```text
 ================== Master Module mastery-3-1 ==================
---- 1. `Integer` Mathematical Bases `parseInt`
+--- 1.  `Integer` Mathematical Bases `parseInt`
 ============
 According to NPO(https://www.nporadio2.nl/song/3230/grote-mannen-worden-klein),  Diggy Dex single, "Grote Mannen Worden Klein" was releases in 2014
 Let's see different ways to visualize this:
@@ -44,10 +44,10 @@ The single was "Grote Mannen Worden Klein" was released, in Decimal, in the year
 *** Integer.parseInt(11111011110, 2)
 The single was "Grote Mannen Worden Klein" was released, in Binary, in the year 2014
 References
-1. https://www.nporadio2.nl/song/3230/grote-mannen-worden-klein
-2. https://www.last.fm/music/Diggy+Dex/_/Grote+Mannen+Worden+Klein
-3. https://www.metrolyrics.com/grote-mannen-worden-klein-lyrics-diggy-dex.html
---- 2. Labels and `break` in loops
+1.  https://www.nporadio2.nl/song/3230/grote-mannen-worden-klein
+2.  https://www.last.fm/music/Diggy+Dex/_/Grote+Mannen+Worden+Klein
+3.  https://www.metrolyrics.com/grote-mannen-worden-klein-lyrics-diggy-dex.html
+--- 2.  Labels and `break` in loops
 ============
 Case: You are a fan of "De Jeugd van Tegenwoordig" and you just keep buying their records.
 You have a shelf with three rows where your records are organized by most favourite too less favourite album.
@@ -58,12 +58,12 @@ But "De Jeugd van Tegenwoordig" only edited 8 albums!
 We will use old fashioned for loops to figure out this mess.
 On our example we just want to check how many iteration our for loops will perform.
 Our criteria is:
-1. For loop will break once a repetition is found
-2. The Atomic Integer counts the number of repetitions found
-3. Keep in mind that there might be more repetitions in one particular iteration, but those are not counted
-4. Remember that the for loop will break and will skip the rest of the albums on that iteration
-5. No repetitions will be counted on the same shelf
-6. I know its difficult but that's the point 😊
+1.  For loop will break once a repetition is found
+2.  The Atomic Integer counts the number of repetitions found
+3.  Keep in mind that there might be more repetitions in one particular iteration, but those are not counted
+4.  Remember that the for loop will break and will skip the rest of the albums on that iteration
+5.  No repetitions will be counted on the same shelf
+6.  I know its difficult but that's the point 😊
 Your goal is to guess how many iterations will the atomic number count
 These are your randomized shelves:
 Shelf 1 -> [Parels voor de zwijnen, Luek]
@@ -72,9 +72,9 @@ Shelf 3 -> [De lachende derde, X - Viering van het super decennium, Luek, Luek, 
 Please guess how many repetitions will this method find ->
 5
 You made it champ!! There are indeed 5 repetitions found! 🥇
-1. https://nl.wikipedia.org/wiki/De_Jeugd_van_Tegenwoordig_(rapgroep)
-2. https://www.youtube.com/watch?v=cNMXSKfWfLQ
---- 3. `Files.newDirectoryStream` Listings and the `glob` pattern
+1.  https://nl.wikipedia.org/wiki/De_Jeugd_van_Tegenwoordig_(rapgroep)
+2.  https://www.youtube.com/watch?v=cNMXSKfWfLQ
+--- 3.  `Files.newDirectoryStream` Listings and the `glob` pattern
 ============
 Case: We saved a part of Abel's Lyrics somewhere, for our social study work, but we don't know where the file is.
 We took the lyrics from https://www.musixmatch.com/lyrics/Abel/Onderweg,
@@ -109,7 +109,7 @@ Je onvoorwaardelijk koos voor mij
 A study for the music styles at the end of the 90's.
 /tmp/abel.onderweg.txt
 We finally found it!
---- 4. `@Override` in `equals`
+--- 4.  `@Override` in `equals`
 ============
 Case: We want to buy a record of Maaike Ouboter
 We made a selection of an article we really want to buy.
@@ -123,7 +123,7 @@ Clerk -> Yes, let me check if we have it... false. We don't sorry. Do you have a
 Customer -> Yes, I want the special edition please
 Clerk -> Yes, let me check if we have it... true. Yes! We do! Great! 😉
 Important take out here is that `@Override` must be done with `Object` and equals can of course be overloaded.
---- 5. How `null` is interpreted in overloading
+--- 5.  How `null` is interpreted in overloading
 ============
 Case: We receive different shop items.
 Now we want to check their state.
@@ -141,13 +141,13 @@ Object ShopItem{barCode='2742984738947894790942370470', name='De stilte voorbij'
 Finally we make a machine a start the `checkItem` procedure without a record
 Object null is cleared to be sold as a VinylRecord!
 Never forget that a call with null will search for the most specific overloading!
---- 6. How `getRoot()` exhibits the root `Path`
+--- 6.  How `getRoot()` exhibits the root `Path`
 ============
 Case: We placed our files somewhere, but how do we call the root?
 Path.of("/tmp").getRoot()
 /
 That's it! Slashes are part of root, not of individual paths
---- 7. Type of elements in a diamond notation declared `ArrayList` assigned to `var`
+--- 7.  Type of elements in a diamond notation declared `ArrayList` assigned to `var`
 ============
 Case: We've created a list of elements but didn't gave it a type with diamond notation!
 We can't sell these at our shop this way, but what is their type?
@@ -163,7 +163,7 @@ And these are the types of its contents, class java.util.ArrayList
 We can only list the singers, Diggy Dex Ft. Eva De Roovere, `Object`'s
 The point is, just like in any List, the type is important when retrieving the items.
 Although diamond notation is handy in the old syntax, with the use of `var` it becomes rather obsolete and leads to confusing code.
---- 8. Initialization of invisible `primitive` members
+--- 8.  Initialization of invisible `primitive` members
 ============
 Case: Our shop has grown a lot and we need a brand new bookcase!
 Let's create one!
@@ -175,7 +175,7 @@ Current year is 2020
 Take notice on the member calling before creation.
 Which methods are actually called and why?
 Generally speaking, only after `super`, are the instance variable members initialized.
---- 9. Declaring a `String` array.
+--- 9.  Declaring a `String` array.
 ============
 We'll just list the band "De Jeugd van Tegenwoordig"
 final String[]  band = {"Willie Wartaal", "Vieze Fur", "Faberyayo", "Bas Bron"};
@@ -270,16 +270,16 @@ Process finished with exit code 0
 
 ## References
 
-- [Ode aan Boudewijn: Maaike Ouboter - Verdronken Vlinder - 17-1-2014](https://www.bnnvara.nl/dewerelddraaitdoor/videos/257725)
-- [Verdronken vlinder - Wikipedia NL](https://nl.wikipedia.org/wiki/Verdronken_vlinder)
-- [100% NL TOP 20](https://www.100p.nl/muziek/charts/100-nl-top-20)
-- [Vinyl Record Sizes and Speeds – What does 33 – 45- 78 RPM mean?](https://blog.electrohome.com/vinyl-record-speeds-33-45-78-mean/)
-- [Maaike Ouboter](https://nl.wikipedia.org/wiki/Maaike_Ouboter)
-- [Musixmatch - Abel, Onderweg, Lyrics](https://www.musixmatch.com/lyrics/Abel/Onderweg)
-- [Glob pattern](https://en.wikipedia.org/wiki/Glob_(programming))
-- [De Jeugd van Tegenwoordig - Wikipedia NL](https://nl.wikipedia.org/wiki/De_Jeugd_van_Tegenwoordig_(rapgroep))
-- [Diggy Dex - Wikipedia NL](https://nl.wikipedia.org/wiki/Diggy_Dex)
-- [Jan Willem Roy - Wikipedia NL](https://nl.wikipedia.org/wiki/JW_Roy)
+-   [Ode aan Boudewijn: Maaike Ouboter - Verdronken Vlinder - 17-1-2014](https://www.bnnvara.nl/dewerelddraaitdoor/videos/257725)
+-   [Verdronken vlinder - Wikipedia NL](https://nl.wikipedia.org/wiki/Verdronken_vlinder)
+-   [100% NL TOP 20](https://www.100p.nl/muziek/charts/100-nl-top-20)
+-   [Vinyl Record Sizes and Speeds – What does 33 – 45- 78 RPM mean?](https://blog.electrohome.com/vinyl-record-speeds-33-45-78-mean/)
+-   [Maaike Ouboter](https://nl.wikipedia.org/wiki/Maaike_Ouboter)
+-   [Musixmatch - Abel, Onderweg, Lyrics](https://www.musixmatch.com/lyrics/Abel/Onderweg)
+-   [Glob pattern](https://en.wikipedia.org/wiki/Glob_(programming))
+-   [De Jeugd van Tegenwoordig - Wikipedia NL](https://nl.wikipedia.org/wiki/De_Jeugd_van_Tegenwoordig_(rapgroep))
+-   [Diggy Dex - Wikipedia NL](https://nl.wikipedia.org/wiki/Diggy_Dex)
+-   [Jan Willem Roy - Wikipedia NL](https://nl.wikipedia.org/wiki/JW_Roy)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=bY-F4sCQz1E">
@@ -324,18 +324,18 @@ Process finished with exit code 0
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

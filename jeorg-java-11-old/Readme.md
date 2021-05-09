@@ -2,9 +2,9 @@
 
 ## Contents
 
-- [jeorg-java-test-drives-common](./jeorg-java-test-drives-design-patterns) - Java commons
-- [jeorg-java-test-drives-designpatterns](./jeorg-java-test-drives-design-patterns) - Java design patterns
-- [jeorg-java-test-drives-security](./jeorg-java-test-drives-security) - Java Security
+-   [jeorg-java-test-drives-common](./jeorg-java-test-drives-design-patterns) - Java commons
+-   [jeorg-java-test-drives-designpatterns](./jeorg-java-test-drives-design-patterns) - Java design patterns
+-   [jeorg-java-test-drives-security](./jeorg-java-test-drives-security) - Java Security
 
 ## About me 👨🏽‍💻🚀🏳️‍🌈
 

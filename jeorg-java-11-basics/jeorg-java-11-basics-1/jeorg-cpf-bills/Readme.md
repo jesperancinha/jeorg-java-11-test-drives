@@ -19,9 +19,9 @@ Process finished with exit code 0
 
 ## References
 
-- [Bills, Bills Bills on the Bilboard Charts in 1999](https://www.billboard.com/music/destinys-child/chart-history/HSI/song/63311)
-- [Bills, Bills Bills](https://en.wikipedia.org/wiki/Bills,_Bills,_Bills)
-- [Destiny's Child - Bills, Bills, Bills (Official Video)](https://www.youtube.com/watch?v=NiF6-0UTqtc)
+-   [Bills, Bills Bills on the Bilboard Charts in 1999](https://www.billboard.com/music/destinys-child/chart-history/HSI/song/63311)
+-   [Bills, Bills Bills](https://en.wikipedia.org/wiki/Bills,_Bills,_Bills)
+-   [Destiny's Child - Bills, Bills, Bills (Official Video)](https://www.youtube.com/watch?v=NiF6-0UTqtc)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=NiF6-0UTqtc">

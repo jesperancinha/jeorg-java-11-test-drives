@@ -9,8 +9,8 @@ However for the purpose of this exercise we are just insterested in investigatin
 
 ## References
 
-- [Difference Between Vector and List](https://www.geeksforgeeks.org/difference-between-vector-and-list/#:~:text=Vector%20may%20have%20a%20default,previous%20elements%20in%20the%20list.)
-- [Cher Homepage](https://www.cher.com/#!/ "Cher Homepage")
+-   [Difference Between Vector and List](https://www.geeksforgeeks.org/difference-between-vector-and-list/#:~:text=Vector%20may%20have%20a%20default,previous%20elements%20in%20the%20list.)
+-   [Cher Homepage](https://www.cher.com/#!/ "Cher Homepage")
 
 [![alt text](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20200526224614/Vector-vs-List.png "Vector VS list")](https://www.geeksforgeeks.org/difference-between-vector-and-list/)
 <div align="center">

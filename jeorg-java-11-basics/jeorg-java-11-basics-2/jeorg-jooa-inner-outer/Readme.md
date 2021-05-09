@@ -36,7 +36,7 @@ Process finished with exit code 0
 
 ## References
 
-- [Sledgehammer (Peter Gabriel song)](https://en.wikipedia.org/wiki/Sledgehammer_(Peter_Gabriel_song))
+-   [Sledgehammer (Peter Gabriel song)](https://en.wikipedia.org/wiki/Sledgehammer_(Peter_Gabriel_song))
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=OJWJE0x7T4Q">

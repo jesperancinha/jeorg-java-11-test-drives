@@ -117,12 +117,12 @@ Process finished with exit code 0
 
 ## References
 
-- [List of 2020 albums](https://en.wikipedia.org/wiki/List_of_2020_albums)
-- [Cyr](https://en.wikipedia.org/wiki/Cyr_(album))
-- [Disco](https://en.wikipedia.org/wiki/Disco_(Kylie_Minogue_album))
-- [Song Machine: Season One - Strange Timez](https://en.wikipedia.org/wiki/Song_Machine,_Season_One:_Strange_Timez)
-- [Róisín Machine](https://en.wikipedia.org/wiki/R%C3%B3is%C3%ADn_Machine)
-- [Club Future Nostalgia](https://en.wikipedia.org/wiki/Club_Future_Nostalgia)
+-   [List of 2020 albums](https://en.wikipedia.org/wiki/List_of_2020_albums)
+-   [Cyr](https://en.wikipedia.org/wiki/Cyr_(album))
+-   [Disco](https://en.wikipedia.org/wiki/Disco_(Kylie_Minogue_album))
+-   [Song Machine: Season One - Strange Timez](https://en.wikipedia.org/wiki/Song_Machine,_Season_One:_Strange_Timez)
+-   [Róisín Machine](https://en.wikipedia.org/wiki/R%C3%B3is%C3%ADn_Machine)
+-   [Club Future Nostalgia](https://en.wikipedia.org/wiki/Club_Future_Nostalgia)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=2AN_GRWlU7k">

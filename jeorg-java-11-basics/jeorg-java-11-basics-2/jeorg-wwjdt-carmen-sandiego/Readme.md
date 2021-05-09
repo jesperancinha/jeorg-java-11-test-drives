@@ -9,15 +9,15 @@ the [NumberFormat](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/
 
 ```text
 ---- WHERE IN THE WORLD IS CARMEN SANDIEGO ----
-- In "Becoming Carmen Sandiego Part I", Carmen needs to jump around 50 yards in Poitiers city of France.
+-   In "Becoming Carmen Sandiego Part I", Carmen needs to jump around 50 yards in Poitiers city of France.
 Let's see how does that look like in french notation:
 Carmen jumped: 4 572,056 cm
 The clip on YouTube has been uploaded on the: 22 janvier 2019.
-- In "The Sticky Rice Caper", Carmen mentions the most produced product in Indonesia: Rice.
+-   In "The Sticky Rice Caper", Carmen mentions the most produced product in Indonesia: Rice.
 Let's see how does that look like in indonesian notation:
 Indonesia produces 70.000.000 tons of rice per year according to Carmen.
 The transcript was placed on Fandom on the: 6 Oktober 2019.
-- And you? Where are you now? Language=English, Country=Netherlands 
+-   And you? Where are you now? Language=English, Country=Netherlands 
 Let's see how does that look like in your notation:
 You live on a planet which has a radius of 6.371 Km.
 You are reading this on the: 1 November 2020.
@@ -27,14 +27,14 @@ Process finished with exit code 0
 
 ## References
 
-- [Becoming Carmen Sandiego Part I Transcripts](https://transcripts.fandom.com/wiki/Becoming_Carmen_Sandiego_Part_I)
-- [Becoming Carmen Sandiego Part II Transcripts](https://transcripts.fandom.com/wiki/Becoming_Carmen_Sandiego_Part_II)
-- [The Sticky Rice Caper](https://transcripts.fandom.com/wiki/The_Sticky_Rice_Caper)
-- [Carmen Sandiego Transcripts](https://transcripts.fandom.com/wiki/Carmen_Sandiego)
-- [Carmen Sandiego](https://en.wikipedia.org/wiki/Carmen_Sandiego)
-- [Where in the World Is Carmen Sandiego? (game show)](https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(game_show))
-- [GGA](https://nl.wikipedia.org/wiki/Color_Graphics_Adapter)
-- [FLOZz' MISC » bash:tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
+-   [Becoming Carmen Sandiego Part I Transcripts](https://transcripts.fandom.com/wiki/Becoming_Carmen_Sandiego_Part_I)
+-   [Becoming Carmen Sandiego Part II Transcripts](https://transcripts.fandom.com/wiki/Becoming_Carmen_Sandiego_Part_II)
+-   [The Sticky Rice Caper](https://transcripts.fandom.com/wiki/The_Sticky_Rice_Caper)
+-   [Carmen Sandiego Transcripts](https://transcripts.fandom.com/wiki/Carmen_Sandiego)
+-   [Carmen Sandiego](https://en.wikipedia.org/wiki/Carmen_Sandiego)
+-   [Where in the World Is Carmen Sandiego? (game show)](https://en.wikipedia.org/wiki/Where_in_the_World_Is_Carmen_Sandiego%3F_(game_show))
+-   [GGA](https://nl.wikipedia.org/wiki/Color_Graphics_Adapter)
+-   [FLOZz' MISC » bash:tip_colors_and_formatting](https://misc.flogisoft.com/bash/tip_colors_and_formatting)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=f_j3CRmyPxI">

@@ -3,9 +3,9 @@
 We will look at the critically acclaimed song "[Annie Lennox - No More "I Love You's"](https://www.youtube.com/watch?v=NSkboTTTmpg)". In concrete we will just play with the song title. We are going to discover some tricks regarding charAt which could be applied to any other method. When working with
 primitive types we need to have present a couple of things:
 
-1. Primitive values inside the range do not need cast (e.g. int to float does not need casting)
-2. Primitive values outside the range imperatively need casting (e.g. float to int needs casting)
-3. When the range is similar, but do not match, then a cast must happen regardless of the order (e.g. short to char and vice-versa)
+1.  Primitive values inside the range do not need cast (e.g. int to float does not need casting)
+2.  Primitive values outside the range imperatively need casting (e.g. float to int needs casting)
+3.  When the range is similar, but do not match, then a cast must happen regardless of the order (e.g. short to char and vice-versa)
 
 ## Tips
 
@@ -38,8 +38,8 @@ Process finished with exit code 0
 
 ## References
 
-- [IndexOutOfBounds Exception Java String Class charAt Method]()https://stackoverflow.com/questions/27523604/indexoutofbounds-exception-java-string-class-charat-method
-- [ASCII table](https://inf14manonr.weebly.com/binaire-getallen.html)
+-   [IndexOutOfBounds Exception Java String Class charAt Method]()https://stackoverflow.com/questions/27523604/indexoutofbounds-exception-java-string-class-charat-method
+-   [ASCII table](https://inf14manonr.weebly.com/binaire-getallen.html)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=NSkboTTTmpg">

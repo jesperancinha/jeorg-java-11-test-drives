@@ -38,9 +38,9 @@ the `hangar`.
 
 ## References
 
-- [Those magnificent men in their flying machines: Fascinating pictures commemorate the 50th anniversary of the Daily Mail Great Transatlantic Air Race that gripped the world](https://www.dailymail.co.uk/news/article-6989763/Daily-Mail-Great-Transatlantic-Air-Race-images-commemorate-50th-anniversary-event.html)
-- [Daily Mail Trans-Atlantic Air Race](https://en.wikipedia.org/wiki/Daily_Mail_Trans-Atlantic_Air_Race)
-- [1969 in aviation](https://en.wikipedia.org/wiki/1969_in_aviation)
+-   [Those magnificent men in their flying machines: Fascinating pictures commemorate the 50th anniversary of the Daily Mail Great Transatlantic Air Race that gripped the world](https://www.dailymail.co.uk/news/article-6989763/Daily-Mail-Great-Transatlantic-Air-Race-images-commemorate-50th-anniversary-event.html)
+-   [Daily Mail Trans-Atlantic Air Race](https://en.wikipedia.org/wiki/Daily_Mail_Trans-Atlantic_Air_Race)
+-   [1969 in aviation](https://en.wikipedia.org/wiki/1969_in_aviation)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=Dt45BENU7_0">
@@ -73,18 +73,18 @@ the `hangar`.
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

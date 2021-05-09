@@ -6,10 +6,10 @@ In this exercise we'll make a simulation about the character intepreted by Harri
 
 What is important to understand here is two basic concepts:
 
-1. A thead can acquire multiple locks and does not block itself.
-2. One thread cannot get a lock if there is already one or more locks acquired from another thread.
-3. A thread waits for the lock to be available with the simple lock call.
-4. A thread gets the result of getting the lock (true/false) with the tryLock method.
+1.  A thead can acquire multiple locks and does not block itself.
+2.  One thread cannot get a lock if there is already one or more locks acquired from another thread.
+3.  A thread waits for the lock to be available with the simple lock call.
+4.  A thread gets the result of getting the lock (true/false) with the tryLock method.
 
 Both methods have names that are self-explanatory and this way we should be able to remember what they do everytime we look at such code.
 
@@ -36,7 +36,7 @@ Process finished with exit code 0
 
 ## References
 
-- [The Fugitive](https://www.imdb.com/title/tt0106977/)
+-   [The Fugitive](https://www.imdb.com/title/tt0106977/)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=ETPVU0acnrE">

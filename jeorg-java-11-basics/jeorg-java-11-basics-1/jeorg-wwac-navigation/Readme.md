@@ -4,35 +4,35 @@
 
 In this exercise, we'll have a look at the extraordinary adventure two amazing women which led them to achieve a Guinness Book of Records entry. They achieved this by cycling through 25 different countries. Our data is the list of the countries they visited:
 
-- UK
-- France
-- Monaco
-- Italy
-- Slovenia
-- Croatia
-- Bosnia and Herzegovina
-- Montenegro
-- Albania
-- North Macedonia
-- Greece
-- Turkey
-- Georgia
-- India
-- Myanmar
-- Thailand
-- Malaysia
-- Singapore
-- Australia
-- New Zealand
-- USA
-- Mexico
-- Morocco
-- Spain
-- Gibraltar
+-   UK
+-   France
+-   Monaco
+-   Italy
+-   Slovenia
+-   Croatia
+-   Bosnia and Herzegovina
+-   Montenegro
+-   Albania
+-   North Macedonia
+-   Greece
+-   Turkey
+-   Georgia
+-   India
+-   Myanmar
+-   Thailand
+-   Malaysia
+-   Singapore
+-   Australia
+-   New Zealand
+-   USA
+-   Mexico
+-   Morocco
+-   Spain
+-   Gibraltar
 
 ## References
 
-- [Guinness World Record: Women circumnavigate world on tandem bicycle](https://www.bbc.com/news/uk-england-oxfordshire-53567668)
+-   [Guinness World Record: Women circumnavigate world on tandem bicycle](https://www.bbc.com/news/uk-england-oxfordshire-53567668)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=Y2FreGXnju8">

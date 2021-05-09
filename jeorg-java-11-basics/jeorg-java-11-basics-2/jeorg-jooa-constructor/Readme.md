@@ -16,8 +16,8 @@ GroupBand{name='Starships', activity='building this city'}  - activity=building 
 
 ## References
 
-- [Starship - We Built This City (Na, sowas!, 11.01.1986)](https://www.youtube.com/watch?v=Diroq2sYMOw)
-- [The Bangles - Manic Monday](https://www.youtube.com/watch?v=SsmVgoXDq2w)
+-   [Starship - We Built This City (Na, sowas!, 11.01.1986)](https://www.youtube.com/watch?v=Diroq2sYMOw)
+-   [The Bangles - Manic Monday](https://www.youtube.com/watch?v=SsmVgoXDq2w)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=Diroq2sYMOw">

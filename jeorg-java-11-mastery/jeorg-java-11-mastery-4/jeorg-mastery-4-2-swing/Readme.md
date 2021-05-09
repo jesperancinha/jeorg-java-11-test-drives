@@ -5,15 +5,15 @@ pop/indie music history between the 70's going through the 80's, 90's and early 
 
 ## Exercise
 
-1. Primitives Revised
-2. Different ways to use `this`
-3. The body of `switch`
-4. The `java.desktop` module
-5. Hidding and shadowing instance members
-6. Bypassing overloading methods with different return types
-7. Immutability standards and using `LocalDate` and `LocalDateTime`
-8. Overwriting with `FileOutputStream`
-9. Why use `putIfAbsent`?
+1.  Primitives Revised
+2.  Different ways to use `this`
+3.  The body of `switch`
+4.  The `java.desktop` module
+5.  Hidding and shadowing instance members
+6.  Bypassing overloading methods with different return types
+7.  Immutability standards and using `LocalDate` and `LocalDateTime`
+8.  Overwriting with `FileOutputStream`
+9.  Why use `putIfAbsent`?
 10. Evaluation order of conditional operators
 11. Method overloading and overriding with `extends`
 12. Immutability with Guidelines 7 and 6
@@ -35,33 +35,33 @@ pop/indie music history between the 70's going through the 80's, 90's and early 
 
 ## References
 
-- [Rapid Tables](https://www.rapidtables.com/convert/number/decimal-to-octal.html)
-- [Definition of Double in C, C++ and C#](https://www.thoughtco.com/definition-of-double-958065#:~:text=Double%20vs.&text=Its%20range%20is%20approximately%201.5,to%201.7%20%C3%97%2010308.)
-- [Size of Floats](https://chortle.ccsu.edu/java5/Notes/chap11/ch11_2.html)
-- [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
-- [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
-- [Primitive Data Types by Docs@Oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
-- [Java: Primitive data types](https://cs.fit.edu/~ryan/java/language/java-data.html)
-- [Examples of Formatting Float or Double Numbers to String in Java](https://www.java67.com/2014/06/how-to-format-float-or-double-number-java-example.html)
-- [Floating-Point Types, Formats, and Values](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3)
+-   [Rapid Tables](https://www.rapidtables.com/convert/number/decimal-to-octal.html)
+-   [Definition of Double in C, C++ and C#](https://www.thoughtco.com/definition-of-double-958065#:~:text=Double%20vs.&text=Its%20range%20is%20approximately%201.5,to%201.7%20%C3%97%2010308.)
+-   [Size of Floats](https://chortle.ccsu.edu/java5/Notes/chap11/ch11_2.html)
+-   [Java Security Practices Code Guide](https://www.oracle.com/java/technologies/javase/seccodeguide.html)
+-   [Naming of Automatic Module](https://www.tutorialspoint.com/what-are-automatic-modules-in-java-9)
+-   [Primitive Data Types by Docs@Oracle](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
+-   [Java: Primitive data types](https://cs.fit.edu/~ryan/java/language/java-data.html)
+-   [Examples of Formatting Float or Double Numbers to String in Java](https://www.java67.com/2014/06/how-to-format-float-or-double-number-java-example.html)
+-   [Floating-Point Types, Formats, and Values](https://docs.oracle.com/javase/specs/jls/se7/html/jls-4.html#jls-4.2.3)
 
 ---
 
-- [RUBÍ 2020, entrada completa a quien le importa](https://www.youtube.com/watch?v=aNMdaRbX_-k)
-- [Rosa López · A quién le importa - 2020](https://www.youtube.com/watch?v=NxlfzjWX2Z4)
-- [A QUIÉN LE IMPORTA - Grupal | Gala 7 | OT 2017](https://www.youtube.com/watch?v=hoH6OXQpmQY)
-- [Himno World Pride Madrid 2017 - A quien le importa 2017](https://www.lasexta.com/especiales/world-pride-madrid/orgullo-lgtbi/a-quien-le-importa-asi-suena-el-himno-oficial-del-world-pride-madrid-2017_201706285953f2d20cf2a25c00ab7737.html)
-- [Fangoria - A quien le importa 2011](https://www.youtube.com/watch?v=XX_hWpPnd3I)
-- [Thalia - A Quien Le Importa - Video Oficial 2002](https://www.youtube.com/watch?v=s0MG5mdwweU)
-- [Alaska y Dinarama A Quién Le Importa (1984)](https://www.youtube.com/watch?v=N2L7cRsUA0E)
-- [¿A quién le importa?](https://en.wikipedia.org/wiki/%C2%BFA_qui%C3%A9n_le_importa%3F)
-- [Paloma San Basilio](https://nl.wikipedia.org/wiki/Paloma_San_Basilio)
-- [Juntos Sencillo Paloma San Basilio @ Chordify](https://chordify.net/chords/juntos-sencillo-juntos-paloma-san-basilio-arturo-baez-velasquez)
-- [Juntos (canción)](https://es.wikipedia.org/wiki/Juntos_(canci%C3%B3n))
-- [Analysis of Fangoria by Prezi](https://prezi.com/goxtiwbslbm1/analysis-of-fangoria/)
-- [The Bloody History of Fangoria, the Magazine That Changed the Way We View Horror Movies](https://www.mentalfloss.com/article/560144/how-fangoria-magazine-changed-horror-movies)
-- [Fangoria magazine](https://en.wikipedia.org/wiki/Fangoria)
-- [Fangoria band](https://en.wikipedia.org/wiki/Fangoria_(band))
+-   [RUBÍ 2020, entrada completa a quien le importa](https://www.youtube.com/watch?v=aNMdaRbX_-k)
+-   [Rosa López · A quién le importa - 2020](https://www.youtube.com/watch?v=NxlfzjWX2Z4)
+-   [A QUIÉN LE IMPORTA - Grupal | Gala 7 | OT 2017](https://www.youtube.com/watch?v=hoH6OXQpmQY)
+-   [Himno World Pride Madrid 2017 - A quien le importa 2017](https://www.lasexta.com/especiales/world-pride-madrid/orgullo-lgtbi/a-quien-le-importa-asi-suena-el-himno-oficial-del-world-pride-madrid-2017_201706285953f2d20cf2a25c00ab7737.html)
+-   [Fangoria - A quien le importa 2011](https://www.youtube.com/watch?v=XX_hWpPnd3I)
+-   [Thalia - A Quien Le Importa - Video Oficial 2002](https://www.youtube.com/watch?v=s0MG5mdwweU)
+-   [Alaska y Dinarama A Quién Le Importa (1984)](https://www.youtube.com/watch?v=N2L7cRsUA0E)
+-   [¿A quién le importa?](https://en.wikipedia.org/wiki/%C2%BFA_qui%C3%A9n_le_importa%3F)
+-   [Paloma San Basilio](https://nl.wikipedia.org/wiki/Paloma_San_Basilio)
+-   [Juntos Sencillo Paloma San Basilio @ Chordify](https://chordify.net/chords/juntos-sencillo-juntos-paloma-san-basilio-arturo-baez-velasquez)
+-   [Juntos (canción)](https://es.wikipedia.org/wiki/Juntos_(canci%C3%B3n))
+-   [Analysis of Fangoria by Prezi](https://prezi.com/goxtiwbslbm1/analysis-of-fangoria/)
+-   [The Bloody History of Fangoria, the Magazine That Changed the Way We View Horror Movies](https://www.mentalfloss.com/article/560144/how-fangoria-magazine-changed-horror-movies)
+-   [Fangoria magazine](https://en.wikipedia.org/wiki/Fangoria)
+-   [Fangoria band](https://en.wikipedia.org/wiki/Fangoria_(band))
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=qSkcpM0zDnU">
@@ -179,18 +179,18 @@ pop/indie music history between the 70's going through the 80's, 90's and early 
 
 ### Online
 
-- [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
-- [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
-- [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
-- [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
+-   [OCP11 1z0-817](https://education.oracle.com/upgrade-ocp-java-6-7-8-to-java-se-11-developer/pexam_1Z0-817)
+-   [OCP11 1z0-819](https://education.oracle.com/java-se-11-developer/pexam_1Z0-819)
+-   [OCP 11 study guide](https://www.goodreads.com/book/show/51132641-ocp-oracle-certified-professional-java-se-11-programmer-i-study-guide)
+-   [A JDeps Tutorial - Analyze Your Project's Dependencies](https://nipafx.dev/jdeps-tutorial-analyze-java-project-dependencies)
 
 ---
 
 ## Java 11 Specs
 
-- [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
-- [The modular JDK](https://openjdk.java.net/jeps/200)
-- [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
+-   [Qualified Exports](https://www.logicbig.com/tutorials/core-java-tutorial/modules/qualified-exports.html)
+-   [The modular JDK](https://openjdk.java.net/jeps/200)
+-   [JLink](https://docs.oracle.com/javase/9/tools/jlink.htm)
 
 ---
 

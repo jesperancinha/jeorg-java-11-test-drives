@@ -4,11 +4,11 @@
 
 Let's make a safari through South Africa. We will calculate distances in detail with double, and then see what happens using the other primitive types. We will walk a lot, and we'll start in the Helderberg Area of South Africa in Cape Town. These are our distances:
 
-- From Helderberg to Pretoria (ZAF) -> 1303.80 km
-- From Pretoria to Gaborone (BWA) -> 259.47 km
-- From Gaborone to Maputo (MOZ) -> 896.04 km
-- From Maputo to Flag Boshielo Dam  (ZAF) -> 462.44 km
-- From Flag Boshielo Dam to Helderberg (ZAF) -> 1612.35 km
+-   From Helderberg to Pretoria (ZAF) -> 1303.80 km
+-   From Pretoria to Gaborone (BWA) -> 259.47 km
+-   From Gaborone to Maputo (MOZ) -> 896.04 km
+-   From Maputo to Flag Boshielo Dam  (ZAF) -> 462.44 km
+-   From Flag Boshielo Dam to Helderberg (ZAF) -> 1612.35 km
 
 Palesa lives in Cape Town. Palesa will visit her sister Nyarai in the winery of Helderberg. There Palesa will chat for a while before going on an amazing adventure. After 15 excruciating long walking days, Palesa reaches Pretoria. She finds a job working in a bar, and there, she makes enough money
 to continue her journey. Palesa is now heading to Botswana and will visit Gaborone. After visiting a few places with amazing views, Palesa decides to move on to Maputo. Palesa wants to learn Portuguese in Maputo and so she does. After a few days and finally mastering the portuguese language, Palesa
@@ -193,8 +193,8 @@ Process finished with exit code 0
 
 ## References
 
-- [Google Maps](https://www.google.com/maps)
-- [Diatance TO](https://www.distance.to/)
+-   [Google Maps](https://www.google.com/maps)
+-   [Diatance TO](https://www.distance.to/)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=68FBI6z4OQI">

@@ -29,7 +29,7 @@ $ openssl req -new -x509 -nodes -sha1 -days 365 -key server.key > server.cert
 
 ```
 
-## References:
+## References
 
 * http://www.akadia.com/services/ssh_test_certificate.html
 

@@ -14,7 +14,7 @@ jdeps ...
 
 ## How to
 
-- We compile our module
+-   We compile our module
 
 ```bash
 cd java-11-basics-2/jpms-tron-package
@@ -26,19 +26,19 @@ jar --create --file ./jars/tron.jar --main-class org.jesperancinha.java11.tron.T
 java --module-path jars --module tron/org.jesperancinha.java11.tron.TronRunner
 ```
 
-- We run our module
+-   We run our module
 
 ```bash
 java --module-path jars --module tron/org.jesperancinha.java11.tron.TronRunner
 ```
 
-- We run our module showing resolution
+-   We run our module showing resolution
 
 ```bash
 java --module-path jars --module tron/org.jesperancinha.java11.tron.TronRunner --show-module-resolution
 ```
 
-- To create a mod file
+-   To create a mod file
 
 ```bash
 mkdir mods
@@ -48,7 +48,7 @@ jmod create --class-path out/tron/ mods/tron.mod
 
 ## Output
 
-- Program run
+-   Program run
 
 ```bash
 java --module-path out --module tron/org.jesperancinha.java11.tron.TronRunner
@@ -82,7 +82,7 @@ LOCK ON
 ACTIVATE
 ```
 
-- jdeps
+-   jdeps
 
 ```bash
 jdeps jars/tron.jar 
@@ -128,7 +128,7 @@ tron -> java.base
    org.jesperancinha.java11.tron.TronServiceImpl       -> org.jesperancinha.java11.tron.TronService           tron
 ```
 
-- jmod describe
+-   jmod describe
 
 ```bash
 jmod describe mods/tron.mod 
@@ -149,15 +149,15 @@ NOTE: Although we can run jars in a non-modular way, come things like ServiceLoa
 
 ## References
 
-- [Tron](https://www.imdb.com/title/tt0084827/)
-- [Java Modules Cheat Sheet](https://nipafx.dev/build-modules/)
-- [How to print color in console using System.out.println?](https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println)
-- [jmod](https://docs.oracle.com/javase/9/tools/jmod.htm)
-- [Tron Wiki](https://en.wikipedia.org/wiki/Tron)
-- [Herong Yang's jmod tool page](http://www.herongyang.com/Java-Tools/jmod-The-JMOD-File-Tool.html)
-- [khmarbaisere/jdk9-jlink-jmod-example](https://github.com/khmarbaise/jdk9-jlink-jmod-example/blob/master/jmod-create.sh)
-- [Ant Apache Mod](https://ant.apache.org/manual/Tasks/jmod.html)
-- [Coloring the Console by vratiu](https://gist.github.com/vratiu/9780109)
+-   [Tron](https://www.imdb.com/title/tt0084827/)
+-   [Java Modules Cheat Sheet](https://nipafx.dev/build-modules/)
+-   [How to print color in console using System.out.println?](https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println)
+-   [jmod](https://docs.oracle.com/javase/9/tools/jmod.htm)
+-   [Tron Wiki](https://en.wikipedia.org/wiki/Tron)
+-   [Herong Yang's jmod tool page](http://www.herongyang.com/Java-Tools/jmod-The-JMOD-File-Tool.html)
+-   [khmarbaisere/jdk9-jlink-jmod-example](https://github.com/khmarbaise/jdk9-jlink-jmod-example/blob/master/jmod-create.sh)
+-   [Ant Apache Mod](https://ant.apache.org/manual/Tasks/jmod.html)
+-   [Coloring the Console by vratiu](https://gist.github.com/vratiu/9780109)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=fFgayA0YAfk">

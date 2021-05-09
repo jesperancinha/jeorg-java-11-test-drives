@@ -35,11 +35,11 @@ In this project you will find all my study materials for my Java SE 11 learning 
 
 ## Contents
 
-- [Basic](./jeorg-java-11-basics) - Basic concept precision modules
-- [Mastery](./jeorg-java-11-mastery) - Extremely theoretical modules with a context
-- [Crums](./jeorg-java-11-crums) - Lightning/Fast track practice exercises without a context
-- [Flash Modules](./jeorg-java-11-flash-modules) - Lightning/Fast track practice module exercises without a context
-- [Old Test Drives](./jeorg-java-11-old) - Old Experimental applications built with Java 11
+-   [Basic](./jeorg-java-11-basics) - Basic concept precision modules
+-   [Mastery](./jeorg-java-11-mastery) - Extremely theoretical modules with a context
+-   [Crums](./jeorg-java-11-crums) - Lightning/Fast track practice exercises without a context
+-   [Flash Modules](./jeorg-java-11-flash-modules) - Lightning/Fast track practice module exercises without a context
+-   [Old Test Drives](./jeorg-java-11-old) - Old Experimental applications built with Java 11
 
 ## Build
 
@@ -67,11 +67,11 @@ bash <(curl -s https://codecov.io/bash)
 
 ### Books
 
-- Boyarsky, J. Selikoff, S. (2020). <i>OCP Oracle Certified Professional Java SE 11 Programmer II Study Guide</i>. (First Edition). Sybex
-- Boyarsky, J. Selikoff, S. (2019). <i>OCP Oracle Certified Professional Java SE 11 Programmer I Study Guide</i>. (Second Edition). Sybex
-- Parlog, N. (23rd July 2019). <i>The Java Module System</i>. (First Edition). Manning Publications
-- Jecan, A. (2017). <i>Java 9 Modularity Revealed</i>. (First Edition). Apress
-- Mak, S. Bakker, P. (September 2017)<i> Java 9 Modularity - Patterns And Practices for Developing Maintainable Applications </i>. (First Edition). O'Reilly
+-   Boyarsky, J. Selikoff, S. (2020). <i>OCP Oracle Certified Professional Java SE 11 Programmer II Study Guide</i>. (First Edition). Sybex
+-   Boyarsky, J. Selikoff, S. (2019). <i>OCP Oracle Certified Professional Java SE 11 Programmer I Study Guide</i>. (Second Edition). Sybex
+-   Parlog, N. (23rd July 2019). <i>The Java Module System</i>. (First Edition). Manning Publications
+-   Jecan, A. (2017). <i>Java 9 Modularity Revealed</i>. (First Edition). Apress
+-   Mak, S. Bakker, P. (September 2017)<i> Java 9 Modularity - Patterns And Practices for Developing Maintainable Applications </i>. (First Edition). O'Reilly
 
 ---
 

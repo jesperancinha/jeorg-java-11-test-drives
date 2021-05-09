@@ -4,15 +4,15 @@
 
 In this third mastery exercise we'll look at a few important key aspects:
 
-1. Interface Inheritance
-2. Comparing with `thenComparing`
-3. AccessController and Permissions
-4. Marking with `markSupported`
-5. `StringBuilder` vs `StringBuffer`
-6. Super constructors
-7. Abstraction: Interfaces vs Classes
-8. Stream filters
-9. Question mark in Mappings (left vs right)
+1.  Interface Inheritance
+2.  Comparing with `thenComparing`
+3.  AccessController and Permissions
+4.  Marking with `markSupported`
+5.  `StringBuilder` vs `StringBuffer`
+6.  Super constructors
+7.  Abstraction: Interfaces vs Classes
+8.  Stream filters
+9.  Question mark in Mappings (left vs right)
 10. provider() in modularity
 11. `IndexOutOfBoundsException`
 12. `allMatch` in stream
@@ -32,21 +32,21 @@ In this third mastery exercise we'll look at a few important key aspects:
 
 ```bash
 ============
-### 1. Creating wolf. Interface cannot access everything
+### 1.  Creating wolf. Interface cannot access everything
 Roar!!!
 The wolf name is: The Wolf. Of course now we use down casting
 ============
-### 2. Creating Bird. Interface cannot access everything
+### 2.  Creating Bird. Interface cannot access everything
 [Wolf{instrument='French horns', name='The Wolf'}, Bird{instrument='Flute', name='Sasha'}]
 The wolf name is: The Wolf. Of course now we use down casting
 The bird name is: Sasha. Of course now we use down casting
 The new collection should be reordered: [Bird{instrument='Flute', name='Sasha'}, Wolf{instrument='French horns', name='The Wolf'}]
 ============
-### 3. We will save our OST in /tmp/ost.txt.
+### 3.  We will save our OST in /tmp/ost.txt.
 ### After running there should be just one TEST text written on that file.
 [ost.txt] [ost.txt] [/tmp/ost.txt]
 ============
-### 4. Checking how marking works with a BufferedReader
+### 4.  Checking how marking works with a BufferedReader
 ### Don't forget that readAhead is an optimization parameter
 ### It has no logic influence
 The Reader class does not support mark false
@@ -63,27 +63,27 @@ He... what?
 Can't make it? Oh. Huh.
 For instance, the part of Billy the Bird is played by a flute, like this...
 ============
-### 5. StringBuilder and StringBuffer have the same methods but their implementations are different.
+### 5.  StringBuilder and StringBuffer have the same methods but their implementations are different.
 ### StringBuilder and StringBuffer do not have a trim() method like String does!.
 ...noossab a ,huh ,
 ...noossab a ,huh ,
 ...noossab a ,huh ,
 ...noossab a ,huh ,
 ============
-### 6. When you develop a subclass, its constructors must know which super constructor to call
+### 6.  When you develop a subclass, its constructors must know which super constructor to call
 ### If none is available, then the default, zero argument constructor is called
 ### One or more are available, then the subclass constructor must determine which constructor to use using super
 ### One or more constructors are implemented and none default is available, then the default is no longer available
 Sasha
 Flute
 ============
-### 7. Know a few things about Interfaces
+### 7.  Know a few things about Interfaces
 ### All methods without a body are implicitly abstract and public
 ### public and abstract are redundant for these implicit properties
 The Wolf
 French horns
 ============
-### 8. A parallel stream can change to be a sequential stream
+### 8.  A parallel stream can change to be a sequential stream
 ### BaseStream.sequential() vs BaseStream.parallel
 ### Also in partitionBy the way to distinguish is using Boolean
 Bird{instrument='Flute', name='Sasha'}
@@ -93,7 +93,7 @@ Bird{instrument='Oboe', name='Bruce'}
 Bird{instrument='Flute', name='Sasha'}
 Bird{instrument='Oboe', name='Bruce'}
 ============
-### 9. You do not need to know the type on the left operand of an assignment operation
+### 9.  You do not need to know the type on the left operand of an assignment operation
 ### You also cannot use diamond notation. You can use question marks as placeholders
 ### Question marks are not allowed on the right
 ### On a practical note it seems to be because a question mark is a wildcard
@@ -107,7 +107,7 @@ Map<?,?> mapOfAnimals5 = new HashMap<>(); -> class java.util.HashMap
 var mapOfAnimals6 = new HashMap<>(); -> class java.util.HashMap
 var mapOfAnimals7 = new HashMap<Animal, List<Animal>>(); -> class java.util.HashMap
 ============
-### 10. Key things to remember:
+### 10. Key things to remember
 ### There is no implements in module!
 ### provides is always followed by with
 ### using a service requires you to use it in the module definition
@@ -191,10 +191,10 @@ Process finished with exit code 0
 
 ## References
 
-- [Peter and The Wolf Lyrics](https://www.azlyrics.com/lyrics/weirdalyankovic/peterandthewolf.html)
-- [Scientific Classification of Wolves](https://wolf.org/wolf-info/basic-wolf-info/types-of-wolves/)
-- [Peter and the Wolf](https://en.wikipedia.org/wiki/Peter_and_the_Wolf)
-- [Build your own Command Line with ANSI escape codes](https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html#256-colors)
+-   [Peter and The Wolf Lyrics](https://www.azlyrics.com/lyrics/weirdalyankovic/peterandthewolf.html)
+-   [Scientific Classification of Wolves](https://wolf.org/wolf-info/basic-wolf-info/types-of-wolves/)
+-   [Peter and the Wolf](https://en.wikipedia.org/wiki/Peter_and_the_Wolf)
+-   [Build your own Command Line with ANSI escape codes](https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html#256-colors)
 
 <div align="center">
       <a href="https://www.youtube.com/watch?v=2EPl8zAsq8A">
