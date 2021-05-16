@@ -1,16 +1,21 @@
 # jeorg-java-11-test-drives
 
+---
+
 [![Twitter URL](https://img.shields.io/twitter/url?logoColor=blue&style=social&url=https%3A%2F%2Fimg.shields.io%2Ftwitter%2Furl%3Fstyle%3Dsocial)](https://twitter.com/intent/tweet?text=%20Checkout%20this%20%40github%20repo%20by%20%40joaofse%20%F0%9F%91%A8%F0%9F%8F%BD%E2%80%8D%F0%9F%92%BB%3A%20https%3A//github.com/jesperancinha/jeorg-java-11-test-drives)
 [![Generic badge](https://img.shields.io/static/v1.svg?label=GitHub&message=Java%2011%20Test%20Drives&color=informational)](https://github.com/jesperancinha/jeorg-java-11-test-drives)
 [![GitHub release](https://img.shields.io/github/release-pre/jesperancinha/jeorg-java-11-test-drives.svg)](#)
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
-[![codebeat badge](https://codebeat.co/badges/cbafce5d-29d0-4c79-b815-df33498df1a4)](https://codebeat.co/projects/github-com-jesperancinha-jeorg-java-11-test-drives-main)
 [![CircleCI](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives.svg?style=svg)](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives)
 [![Build Status](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives)
-[![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/jeorg-java-11-test-drives?branch=main)](https://bettercodehub.com/)
 [![Build status](https://ci.appveyor.com/api/projects/status/eka55ffpbjkxq55p?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-java-11-test-drives)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
+[![codebeat badge](https://codebeat.co/badges/cbafce5d-29d0-4c79-b815-df33498df1a4)](https://codebeat.co/projects/github-com-jesperancinha-jeorg-java-11-test-drives-main)
+[![Build Status](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives)
+[![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/jeorg-java-11-test-drives?branch=main)](https://bettercodehub.com/)
 [![Known Vulnerabilities](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives/badge.svg)](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives)
+
 [![codecov](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives/branch/main/graph/badge.svg?token=bcb3JhwMRp)](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/jeorg-java-11-test-drives/badge.svg?branch=main)](https://coveralls.io/github/jesperancinha/jeorg-java-11-test-drives?branch=main)
 
