@@ -16,6 +16,7 @@
 [![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/jeorg-java-11-test-drives?branch=main)](https://bettercodehub.com/)
 [![Known Vulnerabilities](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives/badge.svg)](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives)
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&utm_medium=referral&utm_content=jesperancinha/jeorg-java-11-test-drives&utm_campaign=Badge_Coverage)
 [![codecov](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives/branch/main/graph/badge.svg?token=bcb3JhwMRp)](https://codecov.io/gh/jesperancinha/jeorg-java-11-test-drives)
 [![Coverage Status](https://coveralls.io/repos/github/jesperancinha/jeorg-java-11-test-drives/badge.svg?branch=main)](https://coveralls.io/github/jesperancinha/jeorg-java-11-test-drives?branch=main)
 
