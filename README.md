@@ -9,7 +9,7 @@
 
 [![CircleCI](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives.svg?style=svg)](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives)
 [![Build Status](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives)
-[![Build status](https://ci.appveyor.com/api/projects/status/eka55ffpbjkxq55p?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-java-11-test-drives)
+[![Build status](https://ci.appveyor.com/api/projects/status/7ao83xwytv0snq2h?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-java-11-test-drives)
 [![jeorg-java-11-test-drives](https://github.com/jesperancinha/jeorg-java-11-test-drives/actions/workflows/jeorg-java-11-test-drives.yml/badge.svg)](https://github.com/jesperancinha/jeorg-java-11-test-drives/actions/workflows/jeorg-java-11-test-drives.yml)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
