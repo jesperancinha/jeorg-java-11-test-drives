@@ -8,13 +8,11 @@
 [![GitHub License](https://img.shields.io/badge/license-Apache%20License%202.0-blue.svg?style=flat)](https://www.apache.org/licenses/LICENSE-2.0)
 
 [![CircleCI](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives.svg?style=svg)](https://circleci.com/gh/jesperancinha/jeorg-java-11-test-drives)
-[![Build Status](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives)
 [![Build status](https://ci.appveyor.com/api/projects/status/7ao83xwytv0snq2h?svg=true)](https://ci.appveyor.com/project/jesperancinha/jeorg-java-11-test-drives)
 [![jeorg-java-11-test-drives](https://github.com/jesperancinha/jeorg-java-11-test-drives/actions/workflows/jeorg-java-11-test-drives.yml/badge.svg)](https://github.com/jesperancinha/jeorg-java-11-test-drives/actions/workflows/jeorg-java-11-test-drives.yml)
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7d0dc4bc47ef4764b6df684395f7c89d)](https://www.codacy.com/gh/jesperancinha/jeorg-java-11-test-drives/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=jesperancinha/jeorg-java-11-test-drives&amp;utm_campaign=Badge_Grade)
 [![codebeat badge](https://codebeat.co/badges/cbafce5d-29d0-4c79-b815-df33498df1a4)](https://codebeat.co/projects/github-com-jesperancinha-jeorg-java-11-test-drives-main)
-[![Build Status](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives.svg?branch=main)](https://travis-ci.com/jesperancinha/jeorg-java-11-test-drives)
 [![BCH compliance](https://bettercodehub.com/edge/badge/jesperancinha/jeorg-java-11-test-drives?branch=main)](https://bettercodehub.com/)
 [![Known Vulnerabilities](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives/badge.svg)](https://snyk.io/test/github/jesperancinha/jeorg-java-11-test-drives)
 
